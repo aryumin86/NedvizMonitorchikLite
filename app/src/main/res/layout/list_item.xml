@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/post_meta_data_tv_at_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:text="тут метаданные тут метаданные тут метаданные тут метаданные "
+        />
+
+
+    <TextView
+        android:id="@+id/post_was_seen_tv_at_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/post_text_tv_at_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="тут начаоьные 100 букв поста располагаютюся тут начаоьные 100 букв поста располагаютюся тут начаоьные 100 букв поста располагаютюся тут начаоьные 100 букв поста располагаютюся "
+        android:layout_marginBottom="15dp"
+        android:padding="5dp"
+        />
+
+</LinearLayout>

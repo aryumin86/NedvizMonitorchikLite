@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/gradientushka"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="ru.aryumin.nedvizmonitorchiklite.About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+
+        android:nestedScrollingEnabled="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Приложение для отслеживания постов социальной сети вконтакте об аренде и продаже объектов недвижимости. \n\nВ меню настроек приложения выберите страну и один или несколько городов для мониторига постов, тип интересующего предложения (продажа/аренда) и тип недвижимости (жилая/нежилая). При публикации новых постов приложение отправит уведомление"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:nestedScrollingEnabled="false" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewAboutActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_add">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

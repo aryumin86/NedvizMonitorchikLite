@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "618669585434",
+    "firebase_url": "https://monitorchik-nedvizki.firebaseio.com",
+    "project_id": "monitorchik-nedvizki",
+    "storage_bucket": "monitorchik-nedvizki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618669585434:android:4104f59b89bfbe07",
+        "android_client_info": {
+          "package_name": "ru.aryumin.nedvizmonitorchiklite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618669585434-2ju91c47v6ifg9vslec75he737k2qr1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfoDUTn65nqaTM7Xv-8K6OYHvS-8IdIiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

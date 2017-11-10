@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="country_pref_screen"
+        android:title="Страна/город"
+        android:summary="Выбор города для мониторинга постов">
+
+        <PreferenceScreen
+            android:key="russia_pref_screen"
+            android:title="Россия">
+
+            <CheckBoxPreference android:key="1" android:title="Абаза" />
+            <CheckBoxPreference android:key="3" android:title="Абдулино" />
+            <CheckBoxPreference android:key="4" android:title="Абинск" />
+            <CheckBoxPreference android:key="5" android:title="Агидель" />
+            <CheckBoxPreference android:key="6" android:title="Агрыз" />
+            <CheckBoxPreference android:key="7" android:title="Адыгейск" />
+            <CheckBoxPreference android:key="8" android:title="Азнакаево" />
+            <CheckBoxPreference android:key="9" android:title="Азов" />
+            <CheckBoxPreference android:key="10" android:title="Ак-Довурак" />
+            <CheckBoxPreference android:key="11" android:title="Аксай" />
+            <CheckBoxPreference android:key="12" android:title="Алагир" />
+            <CheckBoxPreference android:key="13" android:title="Алапаевск" />
+            <CheckBoxPreference android:key="14" android:title="Алатырь" />
+            <CheckBoxPreference android:key="15" android:title="Алдан" />
+            <CheckBoxPreference android:key="16" android:title="Алейск" />
+            <CheckBoxPreference android:key="17" android:title="Александров" />
+            <CheckBoxPreference android:key="18" android:title="Александровск" />
+            <CheckBoxPreference android:key="19" android:title="Александровск-Сахалинский" />
+            <CheckBoxPreference android:key="20" android:title="Алексеевка" />
+            <CheckBoxPreference android:key="21" android:title="Алексин" />
+            <CheckBoxPreference android:key="22" android:title="Алзамай" />
+            <CheckBoxPreference android:key="23" android:title="Алупка" />
+            <CheckBoxPreference android:key="24" android:title="Алушта" />
+            <CheckBoxPreference android:key="25" android:title="Альметьевск" />
+            <CheckBoxPreference android:key="26" android:title="Амурск" />
+            <CheckBoxPreference android:key="27" android:title="Анадырь" />
+            <CheckBoxPreference android:key="28" android:title="Анапа" />
+            <CheckBoxPreference android:key="29" android:title="Ангарск" />
+            <CheckBoxPreference android:key="30" android:title="Андреаполь" />
+            <CheckBoxPreference android:key="31" android:title="Анжеро-Судженск" />
+            <CheckBoxPreference android:key="32" android:title="Анива" />
+            <CheckBoxPreference android:key="33" android:title="Апатиты" />
+            <CheckBoxPreference android:key="34" android:title="Апрелевка" />
+            <CheckBoxPreference android:key="35" android:title="Апшеронск" />
+            <CheckBoxPreference android:key="36" android:title="Арамиль" />
+            <CheckBoxPreference android:key="37" android:title="Аргун" />
+            <CheckBoxPreference android:key="38" android:title="Ардатов" />
+            <CheckBoxPreference android:key="39" android:title="Ардон" />
+            <CheckBoxPreference android:key="40" android:title="Арзамас" />
+            <CheckBoxPreference android:key="41" android:title="Аркадак" />
+            <CheckBoxPreference android:key="42" android:title="Армавир" />
+            <CheckBoxPreference android:key="43" android:title="Армянск" />
+            <CheckBoxPreference android:key="44" android:title="Армянськ" />
+            <CheckBoxPreference android:key="45" android:title="Арсеньев" />
+            <CheckBoxPreference android:key="46" android:title="Арск" />
+            <CheckBoxPreference android:key="47" android:title="Артем" />
+            <CheckBoxPreference android:key="48" android:title="Артемовск" />
+            <CheckBoxPreference android:key="49" android:title="Артемовский" />
+            <CheckBoxPreference android:key="50" android:title="Архангельск" />
+            <CheckBoxPreference android:key="51" android:title="Асбест" />
+            <CheckBoxPreference android:key="52" android:title="Асино" />
+            <CheckBoxPreference android:key="53" android:title="Астрахань" />
+            <CheckBoxPreference android:key="54" android:title="Аткарск" />
+            <CheckBoxPreference android:key="55" android:title="Ахтубинск" />
+            <CheckBoxPreference android:key="56" android:title="Ахтубинск-7" />
+            <CheckBoxPreference android:key="57" android:title="Ачинск" />
+            <CheckBoxPreference android:key="58" android:title="Аша" />
+            <CheckBoxPreference android:key="59" android:title="Бабаево" />
+            <CheckBoxPreference android:key="60" android:title="Бабушкин" />
+            <CheckBoxPreference android:key="61" android:title="Бавлы" />
+            <CheckBoxPreference android:key="62" android:title="Багратионовск" />
+            <CheckBoxPreference android:key="63" android:title="Байкальск" />
+            <CheckBoxPreference android:key="64" android:title="Баймак" />
+            <CheckBoxPreference android:key="65" android:title="Бакал" />
+            <CheckBoxPreference android:key="66" android:title="Баксан" />
+            <CheckBoxPreference android:key="67" android:title="Балабаново" />
+            <CheckBoxPreference android:key="68" android:title="Балаково" />
+            <CheckBoxPreference android:key="69" android:title="Балахна" />
+            <CheckBoxPreference android:key="70" android:title="Балашиха" />
+            <CheckBoxPreference android:key="71" android:title="Балашов" />
+            <CheckBoxPreference android:key="72" android:title="Балей" />
+            <CheckBoxPreference android:key="73" android:title="Балтийск" />
+            <CheckBoxPreference android:key="74" android:title="Барабинск" />
+            <CheckBoxPreference android:key="75" android:title="Барнаул" />
+            <CheckBoxPreference android:key="76" android:title="Барыш" />
+            <CheckBoxPreference android:key="77" android:title="Батайск" />
+            <CheckBoxPreference android:key="78" android:title="Бахчисарай" />
+            <CheckBoxPreference android:key="79" android:title="Бежецк" />
+            <CheckBoxPreference android:key="80" android:title="Белая Калитва" />
+            <CheckBoxPreference android:key="81" android:title="Белая Холуница" />
+            <CheckBoxPreference android:key="82" android:title="Белгород" />
+            <CheckBoxPreference android:key="83" android:title="Белебей" />
+            <CheckBoxPreference android:key="84" android:title="Белев" />
+            <CheckBoxPreference android:key="85" android:title="Белинский" />
+            <CheckBoxPreference android:key="86" android:title="Белово" />
+            <CheckBoxPreference android:key="87" android:title="Белогорск" />
+            <CheckBoxPreference android:key="88" android:title="Белогорск" />
+            <CheckBoxPreference android:key="89" android:title="Белозерск" />
+            <CheckBoxPreference android:key="90" android:title="Белокуриха" />
+            <CheckBoxPreference android:key="91" android:title="Беломорск" />
+            <CheckBoxPreference android:key="92" android:title="Белорецк" />
+            <CheckBoxPreference android:key="93" android:title="Белореченск" />
+            <CheckBoxPreference android:key="94" android:title="Белоусово" />
+            <CheckBoxPreference android:key="95" android:title="Белоярский" />
+            <CheckBoxPreference android:key="96" android:title="Белый" />
+            <CheckBoxPreference android:key="97" android:title="Бердск" />
+            <CheckBoxPreference android:key="98" android:title="Березники" />
+            <CheckBoxPreference android:key="99" android:title="Березовский" />
+            <CheckBoxPreference android:key="100" android:title="Березовский" />
+            <CheckBoxPreference android:key="101" android:title="Беслан" />
+            <CheckBoxPreference android:key="102" android:title="Бийск" />
+            <CheckBoxPreference android:key="103" android:title="Бикин" />
+            <CheckBoxPreference android:key="104" android:title="Билибино" />
+            <CheckBoxPreference android:key="105" android:title="Биробиджан" />
+            <CheckBoxPreference android:key="106" android:title="Бирск" />
+            <CheckBoxPreference android:key="107" android:title="Бирюсинск" />
+            <CheckBoxPreference android:key="108" android:title="Бирюч" />
+            <CheckBoxPreference android:key="109" android:title="Благовещенск" />
+            <CheckBoxPreference android:key="110" android:title="Благовещенск" />
+            <CheckBoxPreference android:key="111" android:title="Благодарный" />
+            <CheckBoxPreference android:key="112" android:title="Бобров" />
+            <CheckBoxPreference android:key="113" android:title="Богданович" />
+            <CheckBoxPreference android:key="114" android:title="Богородицк" />
+            <CheckBoxPreference android:key="115" android:title="Богородск" />
+            <CheckBoxPreference android:key="116" android:title="Боготол" />
+            <CheckBoxPreference android:key="117" android:title="Богучар" />
+            <CheckBoxPreference android:key="118" android:title="Бодайбо" />
+            <CheckBoxPreference android:key="119" android:title="Бокситогорск" />
+            <CheckBoxPreference android:key="120" android:title="Болгар" />
+            <CheckBoxPreference android:key="121" android:title="Бологое" />
+            <CheckBoxPreference android:key="122" android:title="Болотное" />
+            <CheckBoxPreference android:key="123" android:title="Болохово" />
+            <CheckBoxPreference android:key="124" android:title="Болхов" />
+            <CheckBoxPreference android:key="125" android:title="Большой Камень" />
+            <CheckBoxPreference android:key="126" android:title="Бор" />
+            <CheckBoxPreference android:key="127" android:title="Борзя" />
+            <CheckBoxPreference android:key="128" android:title="Борисоглебск" />
+            <CheckBoxPreference android:key="129" android:title="Боровичи" />
+            <CheckBoxPreference android:key="130" android:title="Боровск" />
+            <CheckBoxPreference android:key="131" android:title="Боровск-1" />
+            <CheckBoxPreference android:key="132" android:title="Бородино" />
+            <CheckBoxPreference android:key="133" android:title="Братск" />
+            <CheckBoxPreference android:key="134" android:title="Бронницы" />
+            <CheckBoxPreference android:key="135" android:title="Брянск" />
+            <CheckBoxPreference android:key="136" android:title="Бугульма" />
+            <CheckBoxPreference android:key="137" android:title="Бугуруслан" />
+            <CheckBoxPreference android:key="138" android:title="Буденновск" />
+            <CheckBoxPreference android:key="139" android:title="Бузулук" />
+            <CheckBoxPreference android:key="141" android:title="Буй" />
+            <CheckBoxPreference android:key="142" android:title="Буйнакск" />
+            <CheckBoxPreference android:key="140" android:title="Буинск" />
+            <CheckBoxPreference android:key="143" android:title="Бутурлиновка" />
+            <CheckBoxPreference android:key="144" android:title="Валдай" />
+            <CheckBoxPreference android:key="145" android:title="Валуйки" />
+            <CheckBoxPreference android:key="146" android:title="Велиж" />
+            <CheckBoxPreference android:key="147" android:title="Великие Луки" />
+            <CheckBoxPreference android:key="148" android:title="Великие Луки-1" />
+            <CheckBoxPreference android:key="149" android:title="Великий Новгород" />
+            <CheckBoxPreference android:key="150" android:title="Великий Устюг" />
+            <CheckBoxPreference android:key="151" android:title="Вельск" />
+            <CheckBoxPreference android:key="152" android:title="Венев" />
+            <CheckBoxPreference android:key="153" android:title="Верещагино" />
+            <CheckBoxPreference android:key="154" android:title="Верея" />
+            <CheckBoxPreference android:key="155" android:title="Верхнеуральск" />
+            <CheckBoxPreference android:key="156" android:title="Верхний Тагил" />
+            <CheckBoxPreference android:key="157" android:title="Верхний Уфалей" />
+            <CheckBoxPreference android:key="158" android:title="Верхняя Пышма" />
+            <CheckBoxPreference android:key="159" android:title="Верхняя Салда" />
+            <CheckBoxPreference android:key="160" android:title="Верхняя Тура" />
+            <CheckBoxPreference android:key="161" android:title="Верхотурье" />
+            <CheckBoxPreference android:key="162" android:title="Верхоянск" />
+            <CheckBoxPreference android:key="163" android:title="Весьегонск" />
+            <CheckBoxPreference android:key="164" android:title="Ветлуга" />
+            <CheckBoxPreference android:key="165" android:title="Видное" />
+            <CheckBoxPreference android:key="166" android:title="Вилюйск" />
+            <CheckBoxPreference android:key="167" android:title="Вилючинск" />
+            <CheckBoxPreference android:key="168" android:title="Вихоревка" />
+            <CheckBoxPreference android:key="169" android:title="Вичуга" />
+            <CheckBoxPreference android:key="170" android:title="Владивосток" />
+            <CheckBoxPreference android:key="171" android:title="Владикавказ" />
+            <CheckBoxPreference android:key="172" android:title="Владимир" />
+            <CheckBoxPreference android:key="173" android:title="Волгоград" />
+            <CheckBoxPreference android:key="174" android:title="Волгодонск" />
+            <CheckBoxPreference android:key="175" android:title="Волгореченск" />
+            <CheckBoxPreference android:key="176" android:title="Волжск" />
+            <CheckBoxPreference android:key="177" android:title="Волжский" />
+            <CheckBoxPreference android:key="178" android:title="Вологда" />
+            <CheckBoxPreference android:key="179" android:title="Володарск" />
+            <CheckBoxPreference android:key="180" android:title="Волоколамск" />
+            <CheckBoxPreference android:key="181" android:title="Волосово" />
+            <CheckBoxPreference android:key="182" android:title="Волхов" />
+            <CheckBoxPreference android:key="183" android:title="Волчанск" />
+            <CheckBoxPreference android:key="184" android:title="Вольск" />
+            <CheckBoxPreference android:key="185" android:title="Вольск-18" />
+            <CheckBoxPreference android:key="186" android:title="Воркута" />
+            <CheckBoxPreference android:key="187" android:title="Воронеж" />
+            <CheckBoxPreference android:key="188" android:title="Воронеж-45" />
+            <CheckBoxPreference android:key="189" android:title="Ворсма" />
+            <CheckBoxPreference android:key="190" android:title="Воскресенск" />
+            <CheckBoxPreference android:key="191" android:title="Воткинск" />
+            <CheckBoxPreference android:key="192" android:title="Всеволожск" />
+            <CheckBoxPreference android:key="193" android:title="Вуктыл" />
+            <CheckBoxPreference android:key="194" android:title="Выборг" />
+            <CheckBoxPreference android:key="195" android:title="Выкса" />
+            <CheckBoxPreference android:key="196" android:title="Высоковск" />
+            <CheckBoxPreference android:key="197" android:title="Высоцк" />
+            <CheckBoxPreference android:key="198" android:title="Вытегра" />
+            <CheckBoxPreference android:key="199" android:title="Вышний Волочек" />
+            <CheckBoxPreference android:key="200" android:title="Вяземский" />
+            <CheckBoxPreference android:key="201" android:title="Вязники" />
+            <CheckBoxPreference android:key="202" android:title="Вязьма" />
+            <CheckBoxPreference android:key="203" android:title="Вятские Поляны" />
+            <CheckBoxPreference android:key="205" android:title="Гаврилов-Ям" />
+            <CheckBoxPreference android:key="204" android:title="Гаврилов Посад" />
+            <CheckBoxPreference android:key="206" android:title="Гагарин" />
+            <CheckBoxPreference android:key="207" android:title="Гаджиево" />
+            <CheckBoxPreference android:key="208" android:title="Гай" />
+            <CheckBoxPreference android:key="209" android:title="Галич" />
+            <CheckBoxPreference android:key="210" android:title="Гатчина" />
+            <CheckBoxPreference android:key="211" android:title="Гвардейск" />
+            <CheckBoxPreference android:key="212" android:title="Гдов" />
+            <CheckBoxPreference android:key="213" android:title="Геленджик" />
+            <CheckBoxPreference android:key="214" android:title="Георгиевск" />
+            <CheckBoxPreference android:key="215" android:title="Глазов" />
+            <CheckBoxPreference android:key="216" android:title="Голицыно" />
+            <CheckBoxPreference android:key="217" android:title="Горбатов" />
+            <CheckBoxPreference android:key="218" android:title="Горно-Алтайск" />
+            <CheckBoxPreference android:key="219" android:title="Горнозаводск" />
+            <CheckBoxPreference android:key="220" android:title="Горняк" />
+            <CheckBoxPreference android:key="221" android:title="Городец" />
+            <CheckBoxPreference android:key="222" android:title="Городище" />
+            <CheckBoxPreference android:key="223" android:title="Городовиковск" />
+            <CheckBoxPreference android:key="224" android:title="Городской округ Черноголовка" />
+            <CheckBoxPreference android:key="225" android:title="Гороховец" />
+            <CheckBoxPreference android:key="226" android:title="Горячий Ключ" />
+            <CheckBoxPreference android:key="227" android:title="Грайворон" />
+            <CheckBoxPreference android:key="228" android:title="Гремячинск" />
+            <CheckBoxPreference android:key="229" android:title="Грозный" />
+            <CheckBoxPreference android:key="230" android:title="Грязи" />
+            <CheckBoxPreference android:key="231" android:title="Грязовец" />
+            <CheckBoxPreference android:key="232" android:title="Губаха" />
+            <CheckBoxPreference android:key="233" android:title="Губкин" />
+            <CheckBoxPreference android:key="234" android:title="Губкинский" />
+            <CheckBoxPreference android:key="235" android:title="Гудермес" />
+            <CheckBoxPreference android:key="236" android:title="Гуково" />
+            <CheckBoxPreference android:key="237" android:title="Гулькевичи" />
+            <CheckBoxPreference android:key="238" android:title="Гурьевск" />
+            <CheckBoxPreference android:key="239" android:title="Гурьевск" />
+            <CheckBoxPreference android:key="240" android:title="Гусев" />
+            <CheckBoxPreference android:key="241" android:title="Гусиноозерск" />
+            <CheckBoxPreference android:key="242" android:title="Гусь-Хрустальный" />
+            <CheckBoxPreference android:key="243" android:title="Давлеканово" />
+            <CheckBoxPreference android:key="244" android:title="Дагестанские Огни" />
+            <CheckBoxPreference android:key="245" android:title="Далматово" />
+            <CheckBoxPreference android:key="246" android:title="Дальнегорск" />
+            <CheckBoxPreference android:key="247" android:title="Дальнереченск" />
+            <CheckBoxPreference android:key="248" android:title="Данилов" />
+            <CheckBoxPreference android:key="249" android:title="Данков" />
+            <CheckBoxPreference android:key="250" android:title="Дегтярск" />
+            <CheckBoxPreference android:key="251" android:title="Дедовск" />
+            <CheckBoxPreference android:key="252" android:title="Демидов" />
+            <CheckBoxPreference android:key="253" android:title="Дербент" />
+            <CheckBoxPreference android:key="254" android:title="Десногорск" />
+            <CheckBoxPreference android:key="255" android:title="Джанкой" />
+            <CheckBoxPreference android:key="256" android:title="Джанкой" />
+            <CheckBoxPreference android:key="257" android:title="Дзержинск" />
+            <CheckBoxPreference android:key="258" android:title="Дзержинский" />
+            <CheckBoxPreference android:key="259" android:title="Дивногорск" />
+            <CheckBoxPreference android:key="260" android:title="Дигора" />
+            <CheckBoxPreference android:key="261" android:title="Димитровград" />
+            <CheckBoxPreference android:key="262" android:title="Дмитриев" />
+            <CheckBoxPreference android:key="263" android:title="Дмитров" />
+            <CheckBoxPreference android:key="264" android:title="Дмитровск" />
+            <CheckBoxPreference android:key="265" android:title="Дно" />
+            <CheckBoxPreference android:key="266" android:title="Добрянка" />
+            <CheckBoxPreference android:key="267" android:title="Долгопрудный" />
+            <CheckBoxPreference android:key="268" android:title="Долинск" />
+            <CheckBoxPreference android:key="269" android:title="Домодедово" />
+            <CheckBoxPreference android:key="270" android:title="Донецк" />
+            <CheckBoxPreference android:key="271" android:title="Донской" />
+            <CheckBoxPreference android:key="272" android:title="Дорогобуж" />
+            <CheckBoxPreference android:key="273" android:title="Дрезна" />
+            <CheckBoxPreference android:key="274" android:title="Дубна" />
+            <CheckBoxPreference android:key="275" android:title="Дубовка" />
+            <CheckBoxPreference android:key="276" android:title="Дудинка" />
+            <CheckBoxPreference android:key="277" android:title="Духовщина" />
+            <CheckBoxPreference android:key="278" android:title="Дюртюли" />
+            <CheckBoxPreference android:key="279" android:title="Дятьково" />
+            <CheckBoxPreference android:key="280" android:title="Евпатория" />
+            <CheckBoxPreference android:key="281" android:title="Егорьевск" />
+            <CheckBoxPreference android:key="282" android:title="Ейск" />
+            <CheckBoxPreference android:key="283" android:title="Екатеринбург" />
+            <CheckBoxPreference android:key="284" android:title="Елабуга" />
+            <CheckBoxPreference android:key="285" android:title="Елец" />
+            <CheckBoxPreference android:key="286" android:title="Елизово" />
+            <CheckBoxPreference android:key="287" android:title="Ельня" />
+            <CheckBoxPreference android:key="288" android:title="Еманжелинск" />
+            <CheckBoxPreference android:key="289" android:title="Емва" />
+            <CheckBoxPreference android:key="290" android:title="Енисейск" />
+            <CheckBoxPreference android:key="291" android:title="Ермолино" />
+            <CheckBoxPreference android:key="292" android:title="Ершов" />
+            <CheckBoxPreference android:key="293" android:title="Ессентуки" />
+            <CheckBoxPreference android:key="294" android:title="Ефремов" />
+            <CheckBoxPreference android:key="295" android:title="Железноводск" />
+            <CheckBoxPreference android:key="296" android:title="Железногорск" />
+            <CheckBoxPreference android:key="297" android:title="Железногорск" />
+            <CheckBoxPreference android:key="298" android:title="Железногорск-Илимский" />
+            <CheckBoxPreference android:key="299" android:title="Железнодорожный" />
+            <CheckBoxPreference android:key="300" android:title="Жердевка" />
+            <CheckBoxPreference android:key="301" android:title="Жигулевск" />
+            <CheckBoxPreference android:key="302" android:title="Жиздра" />
+            <CheckBoxPreference android:key="303" android:title="Жирновск" />
+            <CheckBoxPreference android:key="304" android:title="Жуков" />
+            <CheckBoxPreference android:key="305" android:title="Жуковка" />
+            <CheckBoxPreference android:key="306" android:title="Жуковский" />
+            <CheckBoxPreference android:key="307" android:title="Завитинск" />
+            <CheckBoxPreference android:key="308" android:title="Заводоуковск" />
+            <CheckBoxPreference android:key="309" android:title="Заволжск" />
+            <CheckBoxPreference android:key="310" android:title="Заволжье" />
+            <CheckBoxPreference android:key="311" android:title="Задонск" />
+            <CheckBoxPreference android:key="312" android:title="Заинск" />
+            <CheckBoxPreference android:key="313" android:title="Закаменск" />
+            <CheckBoxPreference android:key="314" android:title="Заозерный" />
+            <CheckBoxPreference android:key="315" android:title="Заозерск" />
+            <CheckBoxPreference android:key="316" android:title="Западная Двина" />
+            <CheckBoxPreference android:key="317" android:title="Заполярный" />
+            <CheckBoxPreference android:key="318" android:title="Зарайск" />
+            <CheckBoxPreference android:key="319" android:title="Заречный" />
+            <CheckBoxPreference android:key="320" android:title="Заречный" />
+            <CheckBoxPreference android:key="321" android:title="Заринск" />
+            <CheckBoxPreference android:key="322" android:title="Звенигово" />
+            <CheckBoxPreference android:key="323" android:title="Звенигород" />
+            <CheckBoxPreference android:key="324" android:title="Зверево" />
+            <CheckBoxPreference android:key="325" android:title="Зеленогорск" />
+            <CheckBoxPreference android:key="326" android:title="Зеленогорск" />
+            <CheckBoxPreference android:key="327" android:title="Зеленоград" />
+            <CheckBoxPreference android:key="328" android:title="Зеленоградск" />
+            <CheckBoxPreference android:key="329" android:title="Зеленодольск" />
+            <CheckBoxPreference android:key="330" android:title="Зеленокумск" />
+            <CheckBoxPreference android:key="331" android:title="Зерноград" />
+            <CheckBoxPreference android:key="332" android:title="Зея" />
+            <CheckBoxPreference android:key="333" android:title="Зима" />
+            <CheckBoxPreference android:key="334" android:title="Златоуст" />
+            <CheckBoxPreference android:key="335" android:title="Злынка" />
+            <CheckBoxPreference android:key="336" android:title="Змеиногорск" />
+            <CheckBoxPreference android:key="337" android:title="Знаменск" />
+            <CheckBoxPreference android:key="338" android:title="Зубцов" />
+            <CheckBoxPreference android:key="339" android:title="Зуевка" />
+            <CheckBoxPreference android:key="340" android:title="Ивангород" />
+            <CheckBoxPreference android:key="341" android:title="Иваново" />
+            <CheckBoxPreference android:key="342" android:title="Ивантеевка" />
+            <CheckBoxPreference android:key="343" android:title="Ивдель" />
+            <CheckBoxPreference android:key="344" android:title="Игарка" />
+            <CheckBoxPreference android:key="345" android:title="Ижевск" />
+            <CheckBoxPreference android:key="346" android:title="Избербаш" />
+            <CheckBoxPreference android:key="347" android:title="Изобильный" />
+            <CheckBoxPreference android:key="348" android:title="Иланский" />
+            <CheckBoxPreference android:key="349" android:title="Инза" />
+            <CheckBoxPreference android:key="350" android:title="Инкерман" />
+            <CheckBoxPreference android:key="351" android:title="Инсар" />
+            <CheckBoxPreference android:key="352" android:title="Инта" />
+            <CheckBoxPreference android:key="363" android:title="Йошкар-Ола" />
+            <CheckBoxPreference android:key="353" android:title="Ипатово" />
+            <CheckBoxPreference android:key="354" android:title="Ирбит" />
+            <CheckBoxPreference android:key="355" android:title="Иркутск" />
+            <CheckBoxPreference android:key="356" android:title="Иркутск-45" />
+            <CheckBoxPreference android:key="357" android:title="Исилькуль" />
+            <CheckBoxPreference android:key="358" android:title="Искитим" />
+            <CheckBoxPreference android:key="359" android:title="Истра" />
+            <CheckBoxPreference android:key="360" android:title="Истра-1" />
+            <CheckBoxPreference android:key="361" android:title="Ишим" />
+            <CheckBoxPreference android:key="362" android:title="Ишимбай" />
+            <CheckBoxPreference android:key="364" android:title="Кадников" />
+            <CheckBoxPreference android:key="365" android:title="Казань" />
+            <CheckBoxPreference android:key="366" android:title="Калач" />
+            <CheckBoxPreference android:key="368" android:title="Калач-на-Дону" />
+            <CheckBoxPreference android:key="367" android:title="Калачинск" />
+            <CheckBoxPreference android:key="369" android:title="Калининград" />
+            <CheckBoxPreference android:key="370" android:title="Калининск" />
+            <CheckBoxPreference android:key="371" android:title="Калтан" />
+            <CheckBoxPreference android:key="372" android:title="Калуга" />
+            <CheckBoxPreference android:key="373" android:title="Калязин" />
+            <CheckBoxPreference android:key="374" android:title="Камбарка" />
+            <CheckBoxPreference android:key="375" android:title="Каменка" />
+            <CheckBoxPreference android:key="376" android:title="Каменногорск" />
+            <CheckBoxPreference android:key="377" android:title="Каменск-Уральский" />
+            <CheckBoxPreference android:key="378" android:title="Каменск-Шахтинский" />
+            <CheckBoxPreference android:key="379" android:title="Камень-на-Оби" />
+            <CheckBoxPreference android:key="380" android:title="Камешково" />
+            <CheckBoxPreference android:key="381" android:title="Камызяк" />
+            <CheckBoxPreference android:key="382" android:title="Камышин" />
+            <CheckBoxPreference android:key="383" android:title="Камышлов" />
+            <CheckBoxPreference android:key="384" android:title="Канаш" />
+            <CheckBoxPreference android:key="385" android:title="Кандалакша" />
+            <CheckBoxPreference android:key="386" android:title="Канск" />
+            <CheckBoxPreference android:key="387" android:title="Карабаново" />
+            <CheckBoxPreference android:key="388" android:title="Карабаш" />
+            <CheckBoxPreference android:key="389" android:title="Карабулак" />
+            <CheckBoxPreference android:key="390" android:title="Карасук" />
+            <CheckBoxPreference android:key="391" android:title="Карачаевск" />
+            <CheckBoxPreference android:key="392" android:title="Карачев" />
+            <CheckBoxPreference android:key="393" android:title="Каргат" />
+            <CheckBoxPreference android:key="394" android:title="Каргополь" />
+            <CheckBoxPreference android:key="395" android:title="Карпинск" />
+            <CheckBoxPreference android:key="396" android:title="Карталы" />
+            <CheckBoxPreference android:key="397" android:title="Касимов" />
+            <CheckBoxPreference android:key="398" android:title="Касли" />
+            <CheckBoxPreference android:key="399" android:title="Каспийск" />
+            <CheckBoxPreference android:key="400" android:title="Катав-Ивановск" />
+            <CheckBoxPreference android:key="401" android:title="Катайск" />
+            <CheckBoxPreference android:key="402" android:title="Качканар" />
+            <CheckBoxPreference android:key="403" android:title="Кашин" />
+            <CheckBoxPreference android:key="404" android:title="Кашира" />
+            <CheckBoxPreference android:key="405" android:title="Кашира-8" />
+            <CheckBoxPreference android:key="406" android:title="Кедровый" />
+            <CheckBoxPreference android:key="407" android:title="Кемерово" />
+            <CheckBoxPreference android:key="408" android:title="Кемь" />
+            <CheckBoxPreference android:key="409" android:title="Керчь" />
+            <CheckBoxPreference android:key="410" android:title="Кизел" />
+            <CheckBoxPreference android:key="411" android:title="Кизилюрт" />
+            <CheckBoxPreference android:key="412" android:title="Кизляр" />
+            <CheckBoxPreference android:key="413" android:title="Кимовск" />
+            <CheckBoxPreference android:key="414" android:title="Кимры" />
+            <CheckBoxPreference android:key="415" android:title="Кингисепп" />
+            <CheckBoxPreference android:key="416" android:title="Кинель" />
+            <CheckBoxPreference android:key="417" android:title="Кинешма" />
+            <CheckBoxPreference android:key="418" android:title="Киреевск" />
+            <CheckBoxPreference android:key="419" android:title="Киренск" />
+            <CheckBoxPreference android:key="420" android:title="Киржач" />
+            <CheckBoxPreference android:key="421" android:title="Кириллов" />
+            <CheckBoxPreference android:key="422" android:title="Кириши" />
+            <CheckBoxPreference android:key="423" android:title="Киров" />
+            <CheckBoxPreference android:key="424" android:title="Киров" />
+            <CheckBoxPreference android:key="425" android:title="Кировград" />
+            <CheckBoxPreference android:key="426" android:title="Кирово-Чепецк" />
+            <CheckBoxPreference android:key="427" android:title="Кировск" />
+            <CheckBoxPreference android:key="428" android:title="Кировск" />
+            <CheckBoxPreference android:key="429" android:title="Кирс" />
+            <CheckBoxPreference android:key="430" android:title="Кирсанов" />
+            <CheckBoxPreference android:key="431" android:title="Киселевск" />
+            <CheckBoxPreference android:key="432" android:title="Кисловодск" />
+            <CheckBoxPreference android:key="433" android:title="Климовск" />
+            <CheckBoxPreference android:key="434" android:title="Клин" />
+            <CheckBoxPreference android:key="435" android:title="Клинцы" />
+            <CheckBoxPreference android:key="436" android:title="Княгинино" />
+            <CheckBoxPreference android:key="437" android:title="Ковдор" />
+            <CheckBoxPreference android:key="438" android:title="Ковров" />
+            <CheckBoxPreference android:key="439" android:title="Ковылкино" />
+            <CheckBoxPreference android:key="440" android:title="Когалым" />
+            <CheckBoxPreference android:key="441" android:title="Кодинск" />
+            <CheckBoxPreference android:key="442" android:title="Козельск" />
+            <CheckBoxPreference android:key="443" android:title="Козловка" />
+            <CheckBoxPreference android:key="444" android:title="Козьмодемьянск" />
+            <CheckBoxPreference android:key="445" android:title="Кола" />
+            <CheckBoxPreference android:key="446" android:title="Кологрив" />
+            <CheckBoxPreference android:key="447" android:title="Коломна" />
+            <CheckBoxPreference android:key="448" android:title="Колпашево" />
+            <CheckBoxPreference android:key="449" android:title="Колпино" />
+            <CheckBoxPreference android:key="450" android:title="Кольчугино" />
+            <CheckBoxPreference android:key="451" android:title="Коммунар" />
+            <CheckBoxPreference android:key="452" android:title="Комсомольск" />
+            <CheckBoxPreference android:key="453" android:title="Комсомольск-на-Амуре" />
+            <CheckBoxPreference android:key="454" android:title="Конаково" />
+            <CheckBoxPreference android:key="455" android:title="Кондопога" />
+            <CheckBoxPreference android:key="456" android:title="Кондрово" />
+            <CheckBoxPreference android:key="457" android:title="Константиновск" />
+            <CheckBoxPreference android:key="458" android:title="Копейск" />
+            <CheckBoxPreference android:key="459" android:title="Кораблино" />
+            <CheckBoxPreference android:key="460" android:title="Кореновск" />
+            <CheckBoxPreference android:key="461" android:title="Коркино" />
+            <CheckBoxPreference android:key="462" android:title="Королев" />
+            <CheckBoxPreference android:key="463" android:title="Короча" />
+            <CheckBoxPreference android:key="464" android:title="Корсаков" />
+            <CheckBoxPreference android:key="465" android:title="Коряжма" />
+            <CheckBoxPreference android:key="466" android:title="Костерево" />
+            <CheckBoxPreference android:key="467" android:title="Костомукша" />
+            <CheckBoxPreference android:key="468" android:title="Кострома" />
+            <CheckBoxPreference android:key="469" android:title="Котельники" />
+            <CheckBoxPreference android:key="470" android:title="Котельниково" />
+            <CheckBoxPreference android:key="471" android:title="Котельнич" />
+            <CheckBoxPreference android:key="472" android:title="Котлас" />
+            <CheckBoxPreference android:key="473" android:title="Котово" />
+            <CheckBoxPreference android:key="474" android:title="Котовск" />
+            <CheckBoxPreference android:key="475" android:title="Кохма" />
+            <CheckBoxPreference android:key="476" android:title="Красавино" />
+            <CheckBoxPreference android:key="477" android:title="Красноармейск" />
+            <CheckBoxPreference android:key="478" android:title="Красноармейск" />
+            <CheckBoxPreference android:key="479" android:title="Красновишерск" />
+            <CheckBoxPreference android:key="480" android:title="Красногорск" />
+            <CheckBoxPreference android:key="481" android:title="Краснодар" />
+            <CheckBoxPreference android:key="482" android:title="Красное Село" />
+            <CheckBoxPreference android:key="483" android:title="Краснозаводск" />
+            <CheckBoxPreference android:key="484" android:title="Краснознаменск" />
+            <CheckBoxPreference android:key="485" android:title="Краснознаменск" />
+            <CheckBoxPreference android:key="486" android:title="Краснокаменск" />
+            <CheckBoxPreference android:key="487" android:title="Краснокамск" />
+            <CheckBoxPreference android:key="488" android:title="Красноперекопск" />
+            <CheckBoxPreference android:key="489" android:title="Красноперекопск" />
+            <CheckBoxPreference android:key="490" android:title="Краснослободск" />
+            <CheckBoxPreference android:key="491" android:title="Краснослободск" />
+            <CheckBoxPreference android:key="492" android:title="Краснотурьинск" />
+            <CheckBoxPreference android:key="493" android:title="Красноуральск" />
+            <CheckBoxPreference android:key="494" android:title="Красноуфимск" />
+            <CheckBoxPreference android:key="495" android:title="Красноярск" />
+            <CheckBoxPreference android:key="496" android:title="Красный Кут" />
+            <CheckBoxPreference android:key="497" android:title="Красный Сулин" />
+            <CheckBoxPreference android:key="498" android:title="Красный Холм" />
+            <CheckBoxPreference android:key="499" android:title="Кременки" />
+            <CheckBoxPreference android:key="500" android:title="Кронштадт" />
+            <CheckBoxPreference android:key="501" android:title="Кропоткин" />
+            <CheckBoxPreference android:key="502" android:title="Крымск" />
+            <CheckBoxPreference android:key="503" android:title="Кстово" />
+            <CheckBoxPreference android:key="504" android:title="Кубинка" />
+            <CheckBoxPreference android:key="505" android:title="Кувандык" />
+            <CheckBoxPreference android:key="506" android:title="Кувшиново" />
+            <CheckBoxPreference android:key="507" android:title="Кудымкар" />
+            <CheckBoxPreference android:key="508" android:title="Кузнецк" />
+            <CheckBoxPreference android:key="509" android:title="Кузнецк-12" />
+            <CheckBoxPreference android:key="510" android:title="Кузнецк-8" />
+            <CheckBoxPreference android:key="511" android:title="Куйбышев" />
+            <CheckBoxPreference android:key="512" android:title="Кулебаки" />
+            <CheckBoxPreference android:key="513" android:title="Кумертау" />
+            <CheckBoxPreference android:key="514" android:title="Кунгур" />
+            <CheckBoxPreference android:key="515" android:title="Купино" />
+            <CheckBoxPreference android:key="516" android:title="Курган" />
+            <CheckBoxPreference android:key="517" android:title="Курганинск" />
+            <CheckBoxPreference android:key="518" android:title="Курильск" />
+            <CheckBoxPreference android:key="519" android:title="Курлово" />
+            <CheckBoxPreference android:key="520" android:title="Куровское" />
+            <CheckBoxPreference android:key="521" android:title="Курск" />
+            <CheckBoxPreference android:key="522" android:title="Куртамыш" />
+            <CheckBoxPreference android:key="523" android:title="Курчатов" />
+            <CheckBoxPreference android:key="524" android:title="Куса" />
+            <CheckBoxPreference android:key="525" android:title="Кушва" />
+            <CheckBoxPreference android:key="526" android:title="Кызыл" />
+            <CheckBoxPreference android:key="527" android:title="Кыштым" />
+            <CheckBoxPreference android:key="528" android:title="Кяхта" />
+            <CheckBoxPreference android:key="529" android:title="Лабинск" />
+            <CheckBoxPreference android:key="530" android:title="Лабытнанги" />
+            <CheckBoxPreference android:key="531" android:title="Лагань" />
+            <CheckBoxPreference android:key="532" android:title="Ладушкин" />
+            <CheckBoxPreference android:key="533" android:title="Лаишево" />
+            <CheckBoxPreference android:key="534" android:title="Лакинск" />
+            <CheckBoxPreference android:key="535" android:title="Лангепас" />
+            <CheckBoxPreference android:key="536" android:title="Лахденпохья" />
+            <CheckBoxPreference android:key="537" android:title="Лебедянь" />
+            <CheckBoxPreference android:key="538" android:title="Лениногорск" />
+            <CheckBoxPreference android:key="539" android:title="Ленинск" />
+            <CheckBoxPreference android:key="540" android:title="Ленинск-Кузнецкий" />
+            <CheckBoxPreference android:key="541" android:title="Ленск" />
+            <CheckBoxPreference android:key="542" android:title="Лермонтов" />
+            <CheckBoxPreference android:key="543" android:title="Лесной" />
+            <CheckBoxPreference android:key="544" android:title="Лесозаводск" />
+            <CheckBoxPreference android:key="545" android:title="Лесосибирск" />
+            <CheckBoxPreference android:key="546" android:title="Ливны" />
+            <CheckBoxPreference android:key="547" android:title="Ликино-Дулево" />
+            <CheckBoxPreference android:key="548" android:title="Липецк" />
+            <CheckBoxPreference android:key="549" android:title="Липки" />
+            <CheckBoxPreference android:key="550" android:title="Лиски" />
+            <CheckBoxPreference android:key="551" android:title="Лихославль" />
+            <CheckBoxPreference android:key="552" android:title="Лобня" />
+            <CheckBoxPreference android:key="553" android:title="Лодейное Поле" />
+            <CheckBoxPreference android:key="554" android:title="Ломоносов" />
+            <CheckBoxPreference android:key="555" android:title="Лосино-Петровский" />
+            <CheckBoxPreference android:key="556" android:title="Луга" />
+            <CheckBoxPreference android:key="557" android:title="Луза" />
+            <CheckBoxPreference android:key="558" android:title="Лукоянов" />
+            <CheckBoxPreference android:key="559" android:title="Луховицы" />
+            <CheckBoxPreference android:key="560" android:title="Лысково" />
+            <CheckBoxPreference android:key="561" android:title="Лысьва" />
+            <CheckBoxPreference android:key="562" android:title="Лыткарино" />
+            <CheckBoxPreference android:key="563" android:title="Льгов" />
+            <CheckBoxPreference android:key="564" android:title="Любань" />
+            <CheckBoxPreference android:key="565" android:title="Люберцы" />
+            <CheckBoxPreference android:key="566" android:title="Любим" />
+            <CheckBoxPreference android:key="567" android:title="Людиново" />
+            <CheckBoxPreference android:key="568" android:title="Лянтор" />
+            <CheckBoxPreference android:key="569" android:title="Магадан" />
+            <CheckBoxPreference android:key="570" android:title="Магас" />
+            <CheckBoxPreference android:key="571" android:title="Магнитогорск" />
+            <CheckBoxPreference android:key="572" android:title="Майкоп" />
+            <CheckBoxPreference android:key="573" android:title="Майский" />
+            <CheckBoxPreference android:key="574" android:title="Макаров" />
+            <CheckBoxPreference android:key="575" android:title="Макарьев" />
+            <CheckBoxPreference android:key="576" android:title="Макушино" />
+            <CheckBoxPreference android:key="577" android:title="Малая Вишера" />
+            <CheckBoxPreference android:key="578" android:title="Малгобек" />
+            <CheckBoxPreference android:key="579" android:title="Малмыж" />
+            <CheckBoxPreference android:key="580" android:title="Малоархангельск" />
+            <CheckBoxPreference android:key="581" android:title="Малоярославец" />
+            <CheckBoxPreference android:key="582" android:title="Мамадыш" />
+            <CheckBoxPreference android:key="583" android:title="Мамоново" />
+            <CheckBoxPreference android:key="584" android:title="Мантурово" />
+            <CheckBoxPreference android:key="585" android:title="Мариинск" />
+            <CheckBoxPreference android:key="586" android:title="Мариинский Посад" />
+            <CheckBoxPreference android:key="587" android:title="Маркс" />
+            <CheckBoxPreference android:key="588" android:title="Махачкала" />
+            <CheckBoxPreference android:key="589" android:title="Мглин" />
+            <CheckBoxPreference android:key="590" android:title="Мегион" />
+            <CheckBoxPreference android:key="591" android:title="Медвежьегорск" />
+            <CheckBoxPreference android:key="592" android:title="Медногорск" />
+            <CheckBoxPreference android:key="593" android:title="Медынь" />
+            <CheckBoxPreference android:key="594" android:title="Межгорье" />
+            <CheckBoxPreference android:key="595" android:title="Междуреченск" />
+            <CheckBoxPreference android:key="596" android:title="Мезень" />
+            <CheckBoxPreference android:key="597" android:title="Меленки" />
+            <CheckBoxPreference android:key="598" android:title="Мелеуз" />
+            <CheckBoxPreference android:key="599" android:title="Менделеевск" />
+            <CheckBoxPreference android:key="600" android:title="Мензелинск" />
+            <CheckBoxPreference android:key="601" android:title="Мещовск" />
+            <CheckBoxPreference android:key="602" android:title="Миасс" />
+            <CheckBoxPreference android:key="603" android:title="Микунь" />
+            <CheckBoxPreference android:key="604" android:title="Миллерово" />
+            <CheckBoxPreference android:key="605" android:title="Минеральные Воды" />
+            <CheckBoxPreference android:key="606" android:title="Минусинск" />
+            <CheckBoxPreference android:key="607" android:title="Миньяр" />
+            <CheckBoxPreference android:key="608" android:title="Мирный" />
+            <CheckBoxPreference android:key="609" android:title="Мирный" />
+            <CheckBoxPreference android:key="610" android:title="Михайлов" />
+            <CheckBoxPreference android:key="611" android:title="Михайловка" />
+            <CheckBoxPreference android:key="612" android:title="Михайловск" />
+            <CheckBoxPreference android:key="613" android:title="Михайловск" />
+            <CheckBoxPreference android:key="614" android:title="Мичуринск" />
+            <CheckBoxPreference android:key="615" android:title="Могоча" />
+            <CheckBoxPreference android:key="616" android:title="Можайск" />
+            <CheckBoxPreference android:key="617" android:title="Можга" />
+            <CheckBoxPreference android:key="618" android:title="Моздок" />
+            <CheckBoxPreference android:key="619" android:title="Мончегорск" />
+            <CheckBoxPreference android:key="620" android:title="Морозовск" />
+            <CheckBoxPreference android:key="621" android:title="Моршанск" />
+            <CheckBoxPreference android:key="622" android:title="Мосальск" />
+            <CheckBoxPreference android:key="623" android:title="Москва" />
+            <CheckBoxPreference android:key="624" android:title="Московский" />
+            <CheckBoxPreference android:key="625" android:title="Московский" />
+            <CheckBoxPreference android:key="626" android:title="Муравленко" />
+            <CheckBoxPreference android:key="627" android:title="Мураши" />
+            <CheckBoxPreference android:key="628" android:title="Мурманск" />
+            <CheckBoxPreference android:key="629" android:title="Муром" />
+            <CheckBoxPreference android:key="630" android:title="Мценск" />
+            <CheckBoxPreference android:key="631" android:title="Мыски" />
+            <CheckBoxPreference android:key="632" android:title="Мытищи" />
+            <CheckBoxPreference android:key="633" android:title="Мышкин" />
+            <CheckBoxPreference android:key="634" android:title="Набережные Челны" />
+            <CheckBoxPreference android:key="635" android:title="Навашино" />
+            <CheckBoxPreference android:key="636" android:title="Наволоки" />
+            <CheckBoxPreference android:key="637" android:title="Надым" />
+            <CheckBoxPreference android:key="638" android:title="Назарово" />
+            <CheckBoxPreference android:key="639" android:title="Назрань" />
+            <CheckBoxPreference android:key="640" android:title="Называевск" />
+            <CheckBoxPreference android:key="641" android:title="Нальчик" />
+            <CheckBoxPreference android:key="642" android:title="Нариманов" />
+            <CheckBoxPreference android:key="643" android:title="Наро-Фоминск" />
+            <CheckBoxPreference android:key="644" android:title="Нарткала" />
+            <CheckBoxPreference android:key="645" android:title="Нарьян-Мар" />
+            <CheckBoxPreference android:key="646" android:title="Находка" />
+            <CheckBoxPreference android:key="647" android:title="Невель" />
+            <CheckBoxPreference android:key="648" android:title="Невельск" />
+            <CheckBoxPreference android:key="649" android:title="Невинномысск" />
+            <CheckBoxPreference android:key="650" android:title="Невьянск" />
+            <CheckBoxPreference android:key="651" android:title="Нелидово" />
+            <CheckBoxPreference android:key="652" android:title="Неман" />
+            <CheckBoxPreference android:key="653" android:title="Нерехта" />
+            <CheckBoxPreference android:key="654" android:title="Нерчинск" />
+            <CheckBoxPreference android:key="655" android:title="Нерюнгри" />
+            <CheckBoxPreference android:key="656" android:title="Нестеров" />
+            <CheckBoxPreference android:key="657" android:title="Нефтегорск" />
+            <CheckBoxPreference android:key="658" android:title="Нефтекамск" />
+            <CheckBoxPreference android:key="659" android:title="Нефтекумск" />
+            <CheckBoxPreference android:key="660" android:title="Нефтеюганск" />
+            <CheckBoxPreference android:key="661" android:title="Нея" />
+            <CheckBoxPreference android:key="662" android:title="Нижневартовск" />
+            <CheckBoxPreference android:key="663" android:title="Нижнекамск" />
+            <CheckBoxPreference android:key="664" android:title="Нижнеудинск" />
+            <CheckBoxPreference android:key="665" android:title="Нижние Серги" />
+            <CheckBoxPreference android:key="666" android:title="Нижние Серги-3" />
+            <CheckBoxPreference android:key="667" android:title="Нижний Ломов" />
+            <CheckBoxPreference android:key="668" android:title="Нижний Новгород" />
+            <CheckBoxPreference android:key="669" android:title="Нижний Тагил" />
+            <CheckBoxPreference android:key="670" android:title="Нижняя Салда" />
+            <CheckBoxPreference android:key="671" android:title="Нижняя Тура" />
+            <CheckBoxPreference android:key="672" android:title="Николаевск" />
+            <CheckBoxPreference android:key="673" android:title="Николаевск-на-Амуре" />
+            <CheckBoxPreference android:key="674" android:title="Никольск" />
+            <CheckBoxPreference android:key="675" android:title="Никольск" />
+            <CheckBoxPreference android:key="676" android:title="Никольское" />
+            <CheckBoxPreference android:key="677" android:title="Новая Ладога" />
+            <CheckBoxPreference android:key="678" android:title="Новая Ляля" />
+            <CheckBoxPreference android:key="679" android:title="Новоалександровск" />
+            <CheckBoxPreference android:key="680" android:title="Новоалтайск" />
+            <CheckBoxPreference android:key="681" android:title="Новоаннинский" />
+            <CheckBoxPreference android:key="682" android:title="Нововоронеж" />
+            <CheckBoxPreference android:key="683" android:title="Новодвинск" />
+            <CheckBoxPreference android:key="684" android:title="Новозыбков" />
+            <CheckBoxPreference android:key="685" android:title="Новокубанск" />
+            <CheckBoxPreference android:key="686" android:title="Новокузнецк" />
+            <CheckBoxPreference android:key="687" android:title="Новокуйбышевск" />
+            <CheckBoxPreference android:key="688" android:title="Новомичуринск" />
+            <CheckBoxPreference android:key="689" android:title="Новомосковск" />
+            <CheckBoxPreference android:key="690" android:title="Новопавловск" />
+            <CheckBoxPreference android:key="691" android:title="Новоржев" />
+            <CheckBoxPreference android:key="692" android:title="Новороссийск" />
+            <CheckBoxPreference android:key="693" android:title="Новосибирск" />
+            <CheckBoxPreference android:key="694" android:title="Новосиль" />
+            <CheckBoxPreference android:key="695" android:title="Новосокольники" />
+            <CheckBoxPreference android:key="696" android:title="Новотроицк" />
+            <CheckBoxPreference android:key="697" android:title="Новоузенск" />
+            <CheckBoxPreference android:key="698" android:title="Новоульяновск" />
+            <CheckBoxPreference android:key="699" android:title="Новоуральск" />
+            <CheckBoxPreference android:key="700" android:title="Новохоперск" />
+            <CheckBoxPreference android:key="701" android:title="Новочебоксарск" />
+            <CheckBoxPreference android:key="702" android:title="Новочеркасск" />
+            <CheckBoxPreference android:key="703" android:title="Новошахтинск" />
+            <CheckBoxPreference android:key="704" android:title="Новый Оскол" />
+            <CheckBoxPreference android:key="705" android:title="Новый Уренгой" />
+            <CheckBoxPreference android:key="706" android:title="Ногинск" />
+            <CheckBoxPreference android:key="707" android:title="Нолинск" />
+            <CheckBoxPreference android:key="708" android:title="Норильск" />
+            <CheckBoxPreference android:key="709" android:title="Ноябрьск" />
+            <CheckBoxPreference android:key="710" android:title="Нурлат" />
+            <CheckBoxPreference android:key="711" android:title="Нытва" />
+            <CheckBoxPreference android:key="712" android:title="Нюрба" />
+            <CheckBoxPreference android:key="713" android:title="Нягань" />
+            <CheckBoxPreference android:key="714" android:title="Нязепетровск" />
+            <CheckBoxPreference android:key="715" android:title="Няндома" />
+            <CheckBoxPreference android:key="716" android:title="Облучье" />
+            <CheckBoxPreference android:key="717" android:title="Обнинск" />
+            <CheckBoxPreference android:key="718" android:title="Обоянь" />
+            <CheckBoxPreference android:key="719" android:title="Обь" />
+            <CheckBoxPreference android:key="720" android:title="Одинцово" />
+            <CheckBoxPreference android:key="721" android:title="Ожерелье" />
+            <CheckBoxPreference android:key="722" android:title="Озерск" />
+            <CheckBoxPreference android:key="723" android:title="Озерск" />
+            <CheckBoxPreference android:key="724" android:title="Озеры" />
+            <CheckBoxPreference android:key="725" android:title="Октябрьск" />
+            <CheckBoxPreference android:key="726" android:title="Октябрьский" />
+            <CheckBoxPreference android:key="727" android:title="Окуловка" />
+            <CheckBoxPreference android:key="728" android:title="Олекминск" />
+            <CheckBoxPreference android:key="729" android:title="Оленегорск" />
+            <CheckBoxPreference android:key="730" android:title="Оленегорск-1" />
+            <CheckBoxPreference android:key="731" android:title="Оленегорск-2" />
+            <CheckBoxPreference android:key="732" android:title="Оленегорск-4" />
+            <CheckBoxPreference android:key="733" android:title="Олонец" />
+            <CheckBoxPreference android:key="734" android:title="Омск" />
+            <CheckBoxPreference android:key="735" android:title="Омутнинск" />
+            <CheckBoxPreference android:key="736" android:title="Онега" />
+            <CheckBoxPreference android:key="737" android:title="Опочка" />
+            <CheckBoxPreference android:key="738" android:title="Орёл" />
+            <CheckBoxPreference android:key="739" android:title="Оренбург" />
+            <CheckBoxPreference android:key="740" android:title="Орехово-Зуево" />
+            <CheckBoxPreference android:key="741" android:title="Орлов" />
+            <CheckBoxPreference android:key="742" android:title="Орск" />
+            <CheckBoxPreference android:key="743" android:title="Оса" />
+            <CheckBoxPreference android:key="744" android:title="Осинники" />
+            <CheckBoxPreference android:key="745" android:title="Осташков" />
+            <CheckBoxPreference android:key="746" android:title="Остров" />
+            <CheckBoxPreference android:key="747" android:title="Островной" />
+            <CheckBoxPreference android:key="748" android:title="Острогожск" />
+            <CheckBoxPreference android:key="749" android:title="Отрадное" />
+            <CheckBoxPreference android:key="750" android:title="Отрадный" />
+            <CheckBoxPreference android:key="751" android:title="Оха" />
+            <CheckBoxPreference android:key="752" android:title="Оханск" />
+            <CheckBoxPreference android:key="753" android:title="Очер" />
+            <CheckBoxPreference android:key="754" android:title="Павлово" />
+            <CheckBoxPreference android:key="755" android:title="Павловск" />
+            <CheckBoxPreference android:key="756" android:title="Павловск" />
+            <CheckBoxPreference android:key="757" android:title="Павловский Посад" />
+            <CheckBoxPreference android:key="758" android:title="Палласовка" />
+            <CheckBoxPreference android:key="759" android:title="Партизанск" />
+            <CheckBoxPreference android:key="760" android:title="Певек" />
+            <CheckBoxPreference android:key="761" android:title="Пенза" />
+            <CheckBoxPreference android:key="762" android:title="Первомайск" />
+            <CheckBoxPreference android:key="763" android:title="Первоуральск" />
+            <CheckBoxPreference android:key="764" android:title="Перевоз" />
+            <CheckBoxPreference android:key="765" android:title="Пересвет" />
+            <CheckBoxPreference android:key="766" android:title="Переславль-Залесский" />
+            <CheckBoxPreference android:key="767" android:title="Пермь" />
+            <CheckBoxPreference android:key="768" android:title="Пестово" />
+            <CheckBoxPreference android:key="769" android:title="Петергоф" />
+            <CheckBoxPreference android:key="770" android:title="Петров Вал" />
+            <CheckBoxPreference android:key="771" android:title="Петровск" />
+            <CheckBoxPreference android:key="772" android:title="Петровск-Забайкальский" />
+            <CheckBoxPreference android:key="773" android:title="Петрозаводск" />
+            <CheckBoxPreference android:key="774" android:title="Петропавловск-Камчатский" />
+            <CheckBoxPreference android:key="775" android:title="Петухово" />
+            <CheckBoxPreference android:key="776" android:title="Петушки" />
+            <CheckBoxPreference android:key="777" android:title="Печора" />
+            <CheckBoxPreference android:key="778" android:title="Печоры" />
+            <CheckBoxPreference android:key="779" android:title="Пикалево" />
+            <CheckBoxPreference android:key="780" android:title="Пионерский" />
+            <CheckBoxPreference android:key="781" android:title="Питкяранта" />
+            <CheckBoxPreference android:key="782" android:title="Плавск" />
+            <CheckBoxPreference android:key="783" android:title="Пласт" />
+            <CheckBoxPreference android:key="784" android:title="Плес" />
+            <CheckBoxPreference android:key="785" android:title="Поворино" />
+            <CheckBoxPreference android:key="786" android:title="Подгорное" />
+            <CheckBoxPreference android:key="787" android:title="Подольск" />
+            <CheckBoxPreference android:key="788" android:title="Подпорожье" />
+            <CheckBoxPreference android:key="789" android:title="Покачи" />
+            <CheckBoxPreference android:key="790" android:title="Покров" />
+            <CheckBoxPreference android:key="791" android:title="Покровск" />
+            <CheckBoxPreference android:key="792" android:title="Полевской" />
+            <CheckBoxPreference android:key="793" android:title="Полесск" />
+            <CheckBoxPreference android:key="794" android:title="Полысаево" />
+            <CheckBoxPreference android:key="795" android:title="Полярные Зори" />
+            <CheckBoxPreference android:key="796" android:title="Полярный" />
+            <CheckBoxPreference android:key="797" android:title="Поронайск" />
+            <CheckBoxPreference android:key="798" android:title="Порхов" />
+            <CheckBoxPreference android:key="799" android:title="Похвистнево" />
+            <CheckBoxPreference android:key="800" android:title="Почеп" />
+            <CheckBoxPreference android:key="801" android:title="Починок" />
+            <CheckBoxPreference android:key="802" android:title="Пошехонье" />
+            <CheckBoxPreference android:key="803" android:title="Правдинск" />
+            <CheckBoxPreference android:key="804" android:title="Приволжск" />
+            <CheckBoxPreference android:key="805" android:title="Приморск" />
+            <CheckBoxPreference android:key="806" android:title="Приморск" />
+            <CheckBoxPreference android:key="807" android:title="Приморско-Ахтарск" />
+            <CheckBoxPreference android:key="808" android:title="Приозерск" />
+            <CheckBoxPreference android:key="809" android:title="Прокопьевск" />
+            <CheckBoxPreference android:key="810" android:title="Пролетарск" />
+            <CheckBoxPreference android:key="811" android:title="Протвино" />
+            <CheckBoxPreference android:key="812" android:title="Прохладный" />
+            <CheckBoxPreference android:key="813" android:title="Псков" />
+            <CheckBoxPreference android:key="814" android:title="Пугачев" />
+            <CheckBoxPreference android:key="815" android:title="Пудож" />
+            <CheckBoxPreference android:key="816" android:title="Пустошка" />
+            <CheckBoxPreference android:key="817" android:title="Пучеж" />
+            <CheckBoxPreference android:key="818" android:title="Пушкин" />
+            <CheckBoxPreference android:key="819" android:title="Пушкино" />
+            <CheckBoxPreference android:key="820" android:title="Пущино" />
+            <CheckBoxPreference android:key="821" android:title="Пыталово" />
+            <CheckBoxPreference android:key="822" android:title="Пыть-Ях" />
+            <CheckBoxPreference android:key="823" android:title="Пятигорск" />
+            <CheckBoxPreference android:key="824" android:title="Радужный" />
+            <CheckBoxPreference android:key="825" android:title="Радужный" />
+            <CheckBoxPreference android:key="826" android:title="Райчихинск" />
+            <CheckBoxPreference android:key="827" android:title="Раменское" />
+            <CheckBoxPreference android:key="828" android:title="Рассказово" />
+            <CheckBoxPreference android:key="829" android:title="Ревда" />
+            <CheckBoxPreference android:key="830" android:title="Реж" />
+            <CheckBoxPreference android:key="831" android:title="Реутов" />
+            <CheckBoxPreference android:key="832" android:title="Ржев" />
+            <CheckBoxPreference android:key="833" android:title="Родники" />
+            <CheckBoxPreference android:key="834" android:title="Рославль" />
+            <CheckBoxPreference android:key="835" android:title="Россошь" />
+            <CheckBoxPreference android:key="836" android:title="Ростов" />
+            <CheckBoxPreference android:key="837" android:title="Ростов-на-Дону" />
+            <CheckBoxPreference android:key="838" android:title="Рошаль" />
+            <CheckBoxPreference android:key="839" android:title="Ртищево" />
+            <CheckBoxPreference android:key="840" android:title="Рубцовск" />
+            <CheckBoxPreference android:key="841" android:title="Рудня" />
+            <CheckBoxPreference android:key="842" android:title="Руза" />
+            <CheckBoxPreference android:key="843" android:title="Рузаевка" />
+            <CheckBoxPreference android:key="844" android:title="Рыбинск" />
+            <CheckBoxPreference android:key="845" android:title="Рыбное" />
+            <CheckBoxPreference android:key="846" android:title="Рыльск" />
+            <CheckBoxPreference android:key="847" android:title="Ряжск" />
+            <CheckBoxPreference android:key="848" android:title="Рязань" />
+            <CheckBoxPreference android:key="849" android:title="Саки" />
+            <CheckBoxPreference android:key="850" android:title="Саки" />
+            <CheckBoxPreference android:key="851" android:title="Салават" />
+            <CheckBoxPreference android:key="852" android:title="Салаир" />
+            <CheckBoxPreference android:key="853" android:title="Салехард" />
+            <CheckBoxPreference android:key="854" android:title="Сальск" />
+            <CheckBoxPreference android:key="855" android:title="Самара" />
+            <CheckBoxPreference android:key="856" android:title="Санкт-Петербург" />
+            <CheckBoxPreference android:key="857" android:title="Саранск" />
+            <CheckBoxPreference android:key="858" android:title="Сарапул" />
+            <CheckBoxPreference android:key="859" android:title="Саратов" />
+            <CheckBoxPreference android:key="860" android:title="Саров" />
+            <CheckBoxPreference android:key="861" android:title="Сасово" />
+            <CheckBoxPreference android:key="862" android:title="Сатка" />
+            <CheckBoxPreference android:key="863" android:title="Сафоново" />
+            <CheckBoxPreference android:key="864" android:title="Саяногорск" />
+            <CheckBoxPreference android:key="865" android:title="Саянск" />
+            <CheckBoxPreference android:key="866" android:title="Светлогорск" />
+            <CheckBoxPreference android:key="867" android:title="Светлоград" />
+            <CheckBoxPreference android:key="868" android:title="Светлый" />
+            <CheckBoxPreference android:key="869" android:title="Светогорск" />
+            <CheckBoxPreference android:key="870" android:title="Свирск" />
+            <CheckBoxPreference android:key="871" android:title="Свободный" />
+            <CheckBoxPreference android:key="872" android:title="Себеж" />
+            <CheckBoxPreference android:key="873" android:title="Севастополь" />
+            <CheckBoxPreference android:key="876" android:title="Северо-Курильск" />
+            <CheckBoxPreference android:key="874" android:title="Северобайкальск" />
+            <CheckBoxPreference android:key="875" android:title="Северодвинск" />
+            <CheckBoxPreference android:key="877" android:title="Североморск" />
+            <CheckBoxPreference android:key="878" android:title="Североуральск" />
+            <CheckBoxPreference android:key="879" android:title="Северск" />
+            <CheckBoxPreference android:key="880" android:title="Севск" />
+            <CheckBoxPreference android:key="881" android:title="Сегежа" />
+            <CheckBoxPreference android:key="882" android:title="Сельцо" />
+            <CheckBoxPreference android:key="883" android:title="Семенов" />
+            <CheckBoxPreference android:key="884" android:title="Семикаракорск" />
+            <CheckBoxPreference android:key="885" android:title="Семилуки" />
+            <CheckBoxPreference android:key="886" android:title="Сенгилей" />
+            <CheckBoxPreference android:key="887" android:title="Серафимович" />
+            <CheckBoxPreference android:key="888" android:title="Сергач" />
+            <CheckBoxPreference android:key="889" android:title="Сергиев Посад" />
+            <CheckBoxPreference android:key="890" android:title="Сергиев Посад-7" />
+            <CheckBoxPreference android:key="891" android:title="Сердобск" />
+            <CheckBoxPreference android:key="892" android:title="Серов" />
+            <CheckBoxPreference android:key="893" android:title="Серпухов" />
+            <CheckBoxPreference android:key="894" android:title="Сертолово" />
+            <CheckBoxPreference android:key="895" android:title="Сестрорецк" />
+            <CheckBoxPreference android:key="896" android:title="Сибай" />
+            <CheckBoxPreference android:key="897" android:title="Сим" />
+            <CheckBoxPreference android:key="898" android:title="Симферополь" />
+            <CheckBoxPreference android:key="899" android:title="Сковородино" />
+            <CheckBoxPreference android:key="900" android:title="Скопин" />
+            <CheckBoxPreference android:key="901" android:title="Славгород" />
+            <CheckBoxPreference android:key="902" android:title="Славск" />
+            <CheckBoxPreference android:key="903" android:title="Славянск-на-Кубани" />
+            <CheckBoxPreference android:key="904" android:title="Сланцы" />
+            <CheckBoxPreference android:key="905" android:title="Слободской" />
+            <CheckBoxPreference android:key="906" android:title="Слюдянка" />
+            <CheckBoxPreference android:key="907" android:title="Смоленск" />
+            <CheckBoxPreference android:key="908" android:title="Снегири" />
+            <CheckBoxPreference android:key="909" android:title="Снежинск" />
+            <CheckBoxPreference android:key="910" android:title="Снежногорск" />
+            <CheckBoxPreference android:key="911" android:title="Собинка" />
+            <CheckBoxPreference android:key="912" android:title="Советск" />
+            <CheckBoxPreference android:key="913" android:title="Советск" />
+            <CheckBoxPreference android:key="914" android:title="Советск" />
+            <CheckBoxPreference android:key="915" android:title="Советская Гавань" />
+            <CheckBoxPreference android:key="916" android:title="Советский" />
+            <CheckBoxPreference android:key="917" android:title="Сокол" />
+            <CheckBoxPreference android:key="918" android:title="Солигалич" />
+            <CheckBoxPreference android:key="919" android:title="Соликамск" />
+            <CheckBoxPreference android:key="920" android:title="Солнечногорск" />
+            <CheckBoxPreference android:key="921" android:title="Солнечногорск-2" />
+            <CheckBoxPreference android:key="922" android:title="Солнечногорск-25" />
+            <CheckBoxPreference android:key="923" android:title="Солнечногорск-30" />
+            <CheckBoxPreference android:key="924" android:title="Солнечногорск-7" />
+            <CheckBoxPreference android:key="926" android:title="Соль-Илецк" />
+            <CheckBoxPreference android:key="925" android:title="Сольвычегодск" />
+            <CheckBoxPreference android:key="927" android:title="Сольцы" />
+            <CheckBoxPreference android:key="928" android:title="Сольцы 2" />
+            <CheckBoxPreference android:key="929" android:title="Сорочинск" />
+            <CheckBoxPreference android:key="930" android:title="Сорск" />
+            <CheckBoxPreference android:key="931" android:title="Сортавала" />
+            <CheckBoxPreference android:key="932" android:title="Сосенский" />
+            <CheckBoxPreference android:key="933" android:title="Сосновка" />
+            <CheckBoxPreference android:key="934" android:title="Сосновоборск" />
+            <CheckBoxPreference android:key="935" android:title="Сосновый Бор" />
+            <CheckBoxPreference android:key="936" android:title="Сосногорск" />
+            <CheckBoxPreference android:key="937" android:title="Сочи" />
+            <CheckBoxPreference android:key="938" android:title="Спас-Деменск" />
+            <CheckBoxPreference android:key="939" android:title="Спас-Клепики" />
+            <CheckBoxPreference android:key="940" android:title="Спасск" />
+            <CheckBoxPreference android:key="941" android:title="Спасск-Дальний" />
+            <CheckBoxPreference android:key="942" android:title="Спасск-Рязанский" />
+            <CheckBoxPreference android:key="943" android:title="Среднеколымск" />
+            <CheckBoxPreference android:key="944" android:title="Среднеуральск" />
+            <CheckBoxPreference android:key="945" android:title="Сретенск" />
+            <CheckBoxPreference android:key="946" android:title="Ставрополь" />
+            <CheckBoxPreference android:key="947" android:title="Старая Купавна" />
+            <CheckBoxPreference android:key="948" android:title="Старая Русса" />
+            <CheckBoxPreference android:key="949" android:title="Старица" />
+            <CheckBoxPreference android:key="950" android:title="Стародуб" />
+            <CheckBoxPreference android:key="951" android:title="Старый крым" />
+            <CheckBoxPreference android:key="952" android:title="Старый Оскол" />
+            <CheckBoxPreference android:key="953" android:title="Стерлитамак" />
+            <CheckBoxPreference android:key="954" android:title="Стрежевой" />
+            <CheckBoxPreference android:key="955" android:title="Строитель" />
+            <CheckBoxPreference android:key="956" android:title="Струнино" />
+            <CheckBoxPreference android:key="957" android:title="Ступино" />
+            <CheckBoxPreference android:key="958" android:title="Суворов" />
+            <CheckBoxPreference android:key="959" android:title="Судак" />
+            <CheckBoxPreference android:key="960" android:title="Суджа" />
+            <CheckBoxPreference android:key="961" android:title="Судогда" />
+            <CheckBoxPreference android:key="962" android:title="Суздаль" />
+            <CheckBoxPreference android:key="963" android:title="Суоярви" />
+            <CheckBoxPreference android:key="964" android:title="Сураж" />
+            <CheckBoxPreference android:key="965" android:title="Сургут" />
+            <CheckBoxPreference android:key="966" android:title="Суровикино" />
+            <CheckBoxPreference android:key="967" android:title="Сурск" />
+            <CheckBoxPreference android:key="968" android:title="Сусуман" />
+            <CheckBoxPreference android:key="969" android:title="Сухиничи" />
+            <CheckBoxPreference android:key="970" android:title="Сухой Лог" />
+            <CheckBoxPreference android:key="971" android:title="Сызрань" />
+            <CheckBoxPreference android:key="972" android:title="Сыктывкар" />
+            <CheckBoxPreference android:key="973" android:title="Сысерть" />
+            <CheckBoxPreference android:key="974" android:title="Сычевка" />
+            <CheckBoxPreference android:key="975" android:title="Сясьстрой" />
+            <CheckBoxPreference android:key="976" android:title="Тавда" />
+            <CheckBoxPreference android:key="977" android:title="Таганрог" />
+            <CheckBoxPreference android:key="978" android:title="Тайга" />
+            <CheckBoxPreference android:key="979" android:title="Тайшет" />
+            <CheckBoxPreference android:key="980" android:title="Талдом" />
+            <CheckBoxPreference android:key="981" android:title="Талица" />
+            <CheckBoxPreference android:key="982" android:title="Тамбов" />
+            <CheckBoxPreference android:key="983" android:title="Тара" />
+            <CheckBoxPreference android:key="984" android:title="Тарко-Сале" />
+            <CheckBoxPreference android:key="985" android:title="Таруса" />
+            <CheckBoxPreference android:key="986" android:title="Татарск" />
+            <CheckBoxPreference android:key="987" android:title="Таштагол" />
+            <CheckBoxPreference android:key="988" android:title="Тверь" />
+            <CheckBoxPreference android:key="989" android:title="Теберда" />
+            <CheckBoxPreference android:key="990" android:title="Тейково" />
+            <CheckBoxPreference android:key="991" android:title="Темников" />
+            <CheckBoxPreference android:key="992" android:title="Темрюк" />
+            <CheckBoxPreference android:key="993" android:title="Терек" />
+            <CheckBoxPreference android:key="994" android:title="Тетюши" />
+            <CheckBoxPreference android:key="995" android:title="Тимашевск" />
+            <CheckBoxPreference android:key="996" android:title="Тихвин" />
+            <CheckBoxPreference android:key="997" android:title="Тихорецк" />
+            <CheckBoxPreference android:key="998" android:title="Тобольск" />
+            <CheckBoxPreference android:key="999" android:title="Тогучин" />
+            <CheckBoxPreference android:key="1000" android:title="Тольятти" />
+            <CheckBoxPreference android:key="1001" android:title="Томари" />
+            <CheckBoxPreference android:key="1002" android:title="Томмот" />
+            <CheckBoxPreference android:key="1003" android:title="Томск" />
+            <CheckBoxPreference android:key="1004" android:title="Топки" />
+            <CheckBoxPreference android:key="1005" android:title="Торжок" />
+            <CheckBoxPreference android:key="1006" android:title="Торопец" />
+            <CheckBoxPreference android:key="1007" android:title="Тосно" />
+            <CheckBoxPreference android:key="1008" android:title="Тотьма" />
+            <CheckBoxPreference android:key="1009" android:title="Трехгорный" />
+            <CheckBoxPreference android:key="1010" android:title="Трехгорный-1" />
+            <CheckBoxPreference android:key="1011" android:title="Троицк" />
+            <CheckBoxPreference android:key="1012" android:title="Троицк" />
+            <CheckBoxPreference android:key="1013" android:title="Трубчевск" />
+            <CheckBoxPreference android:key="1014" android:title="Туапсе" />
+            <CheckBoxPreference android:key="1015" android:title="Туймазы" />
+            <CheckBoxPreference android:key="1016" android:title="Тула" />
+            <CheckBoxPreference android:key="1017" android:title="Тулун" />
+            <CheckBoxPreference android:key="1018" android:title="Туран" />
+            <CheckBoxPreference android:key="1019" android:title="Туринск" />
+            <CheckBoxPreference android:key="1020" android:title="Тутаев" />
+            <CheckBoxPreference android:key="1021" android:title="Тында" />
+            <CheckBoxPreference android:key="1022" android:title="Тырныауз" />
+            <CheckBoxPreference android:key="1023" android:title="Тюкалинск" />
+            <CheckBoxPreference android:key="1024" android:title="Тюмень" />
+            <CheckBoxPreference android:key="1025" android:title="Уварово" />
+            <CheckBoxPreference android:key="1026" android:title="Углегорск" />
+            <CheckBoxPreference android:key="1027" android:title="Углич" />
+            <CheckBoxPreference android:key="1028" android:title="Удачный" />
+            <CheckBoxPreference android:key="1029" android:title="Удомля" />
+            <CheckBoxPreference android:key="1030" android:title="Ужур" />
+            <CheckBoxPreference android:key="1031" android:title="Узловая" />
+            <CheckBoxPreference android:key="1032" android:title="Улан-Удэ" />
+            <CheckBoxPreference android:key="1033" android:title="Ульяновск" />
+            <CheckBoxPreference android:key="1034" android:title="Унеча" />
+            <CheckBoxPreference android:key="1035" android:title="Урай" />
+            <CheckBoxPreference android:key="1036" android:title="Урень" />
+            <CheckBoxPreference android:key="1037" android:title="Уржум" />
+            <CheckBoxPreference android:key="1038" android:title="Урус-Мартан" />
+            <CheckBoxPreference android:key="1039" android:title="Урюпинск" />
+            <CheckBoxPreference android:key="1040" android:title="Усинск" />
+            <CheckBoxPreference android:key="1041" android:title="Усмань" />
+            <CheckBoxPreference android:key="1042" android:title="Усолье" />
+            <CheckBoxPreference android:key="1043" android:title="Усолье-Сибирское" />
+            <CheckBoxPreference android:key="1044" android:title="Уссурийск" />
+            <CheckBoxPreference android:key="1045" android:title="Усть-Джегута" />
+            <CheckBoxPreference android:key="1046" android:title="Усть-Илимск" />
+            <CheckBoxPreference android:key="1047" android:title="Усть-Катав" />
+            <CheckBoxPreference android:key="1048" android:title="Усть-Кут" />
+            <CheckBoxPreference android:key="1049" android:title="Усть-Лабинск" />
+            <CheckBoxPreference android:key="1050" android:title="Устюжна" />
+            <CheckBoxPreference android:key="1051" android:title="Уфа" />
+            <CheckBoxPreference android:key="1052" android:title="Ухта" />
+            <CheckBoxPreference android:key="1053" android:title="Учалы" />
+            <CheckBoxPreference android:key="1054" android:title="Уяр" />
+            <CheckBoxPreference android:key="1055" android:title="Фатеж" />
+            <CheckBoxPreference android:key="1056" android:title="Феодосия" />
+            <CheckBoxPreference android:key="1057" android:title="Фокино" />
+            <CheckBoxPreference android:key="1058" android:title="Фокино" />
+            <CheckBoxPreference android:key="1059" android:title="Фролово" />
+            <CheckBoxPreference android:key="1060" android:title="Фрязино" />
+            <CheckBoxPreference android:key="1061" android:title="Фурманов" />
+            <CheckBoxPreference android:key="1062" android:title="Хабаровск" />
+            <CheckBoxPreference android:key="1063" android:title="Хадыженск" />
+            <CheckBoxPreference android:key="1064" android:title="Ханты-Мансийск" />
+            <CheckBoxPreference android:key="1065" android:title="Харабали" />
+            <CheckBoxPreference android:key="1066" android:title="Харовск" />
+            <CheckBoxPreference android:key="1067" android:title="Хасавюрт" />
+            <CheckBoxPreference android:key="1068" android:title="Хвалынск" />
+            <CheckBoxPreference android:key="1069" android:title="Хилок" />
+            <CheckBoxPreference android:key="1070" android:title="Химки" />
+            <CheckBoxPreference android:key="1071" android:title="Холм" />
+            <CheckBoxPreference android:key="1072" android:title="Холмск" />
+            <CheckBoxPreference android:key="1073" android:title="Хотьково" />
+            <CheckBoxPreference android:key="1074" android:title="Цивильск" />
+            <CheckBoxPreference android:key="1075" android:title="Цимлянск" />
+            <CheckBoxPreference android:key="1076" android:title="Чадан" />
+            <CheckBoxPreference android:key="1077" android:title="Чайковский" />
+            <CheckBoxPreference android:key="1078" android:title="Чапаевск" />
+            <CheckBoxPreference android:key="1079" android:title="Чаплыгин" />
+            <CheckBoxPreference android:key="1080" android:title="Чебаркуль" />
+            <CheckBoxPreference android:key="1081" android:title="Чебоксары" />
+            <CheckBoxPreference android:key="1082" android:title="Чегем" />
+            <CheckBoxPreference android:key="1083" android:title="Чекалин" />
+            <CheckBoxPreference android:key="1084" android:title="Челябинск" />
+            <CheckBoxPreference android:key="1085" android:title="Чердынь" />
+            <CheckBoxPreference android:key="1086" android:title="Черемхово" />
+            <CheckBoxPreference android:key="1087" android:title="Черепаново" />
+            <CheckBoxPreference android:key="1088" android:title="Череповец" />
+            <CheckBoxPreference android:key="1089" android:title="Черкесск" />
+            <CheckBoxPreference android:key="1090" android:title="Чермоз" />
+            <CheckBoxPreference android:key="1091" android:title="Черноголовка" />
+            <CheckBoxPreference android:key="1092" android:title="Черногорск" />
+            <CheckBoxPreference android:key="1093" android:title="Чернушка" />
+            <CheckBoxPreference android:key="1094" android:title="Черняховск" />
+            <CheckBoxPreference android:key="1095" android:title="Чехов" />
+            <CheckBoxPreference android:key="1096" android:title="Чехов-2" />
+            <CheckBoxPreference android:key="1097" android:title="Чехов-3" />
+            <CheckBoxPreference android:key="1098" android:title="Чехов-8" />
+            <CheckBoxPreference android:key="1099" android:title="Чистополь" />
+            <CheckBoxPreference android:key="1100" android:title="Чита" />
+            <CheckBoxPreference android:key="1101" android:title="Чкаловск" />
+            <CheckBoxPreference android:key="1102" android:title="Чудово" />
+            <CheckBoxPreference android:key="1103" android:title="Чулым" />
+            <CheckBoxPreference android:key="1104" android:title="Чулым-3" />
+            <CheckBoxPreference android:key="1105" android:title="Чусовой" />
+            <CheckBoxPreference android:key="1106" android:title="Чухлома" />
+            <CheckBoxPreference android:key="1107" android:title="Шагонар" />
+            <CheckBoxPreference android:key="1108" android:title="Шадринск" />
+            <CheckBoxPreference android:key="1109" android:title="Шали" />
+            <CheckBoxPreference android:key="1110" android:title="Шарыпово" />
+            <CheckBoxPreference android:key="1111" android:title="Шарья" />
+            <CheckBoxPreference android:key="1112" android:title="Шатура" />
+            <CheckBoxPreference android:key="1113" android:title="Шахтерск" />
+            <CheckBoxPreference android:key="1114" android:title="Шахты" />
+            <CheckBoxPreference android:key="1115" android:title="Шахунья" />
+            <CheckBoxPreference android:key="1116" android:title="Шацк" />
+            <CheckBoxPreference android:key="1117" android:title="Шебекино" />
+            <CheckBoxPreference android:key="1118" android:title="Шелехов" />
+            <CheckBoxPreference android:key="1119" android:title="Шенкурск" />
+            <CheckBoxPreference android:key="1120" android:title="Шилка" />
+            <CheckBoxPreference android:key="1121" android:title="Шимановск" />
+            <CheckBoxPreference android:key="1122" android:title="Шиханы" />
+            <CheckBoxPreference android:key="1123" android:title="Шлиссельбург" />
+            <CheckBoxPreference android:key="1124" android:title="Шумерля" />
+            <CheckBoxPreference android:key="1125" android:title="Шумиха" />
+            <CheckBoxPreference android:key="1126" android:title="Шуя" />
+            <CheckBoxPreference android:key="1127" android:title="Щекино" />
+            <CheckBoxPreference android:key="1128" android:title="Щелкино" />
+            <CheckBoxPreference android:key="1129" android:title="Щелково" />
+            <CheckBoxPreference android:key="1130" android:title="Щербинка" />
+            <CheckBoxPreference android:key="1131" android:title="Щигры" />
+            <CheckBoxPreference android:key="1132" android:title="Щучье" />
+            <CheckBoxPreference android:key="1133" android:title="Электрогорск" />
+            <CheckBoxPreference android:key="1134" android:title="Электросталь" />
+            <CheckBoxPreference android:key="1135" android:title="Электроугли" />
+            <CheckBoxPreference android:key="1136" android:title="Элиста" />
+            <CheckBoxPreference android:key="1137" android:title="Энгельс" />
+            <CheckBoxPreference android:key="1138" android:title="Энгельс-19" />
+            <CheckBoxPreference android:key="1139" android:title="Энгельс-2" />
+            <CheckBoxPreference android:key="1140" android:title="Эртиль" />
+            <CheckBoxPreference android:key="1141" android:title="Юбилейный" />
+            <CheckBoxPreference android:key="1142" android:title="Югорск" />
+            <CheckBoxPreference android:key="1143" android:title="Южа" />
+            <CheckBoxPreference android:key="1144" android:title="Южно-Сахалинск" />
+            <CheckBoxPreference android:key="1145" android:title="Южно-Сухокумск" />
+            <CheckBoxPreference android:key="1146" android:title="Южноуральск" />
+            <CheckBoxPreference android:key="1147" android:title="Юрга" />
+            <CheckBoxPreference android:key="1149" android:title="Юрьев-Польский" />
+            <CheckBoxPreference android:key="1148" android:title="Юрьевец" />
+            <CheckBoxPreference android:key="1150" android:title="Юрюзань" />
+            <CheckBoxPreference android:key="1151" android:title="Юхнов" />
+            <CheckBoxPreference android:key="1152" android:title="Юхнов-1" />
+            <CheckBoxPreference android:key="1153" android:title="Юхнов-2" />
+            <CheckBoxPreference android:key="1154" android:title="Ядрин" />
+            <CheckBoxPreference android:key="1155" android:title="Якутск" />
+            <CheckBoxPreference android:key="1156" android:title="Ялта" />
+            <CheckBoxPreference android:key="1157" android:title="Ялуторовск" />
+            <CheckBoxPreference android:key="1158" android:title="Янаул" />
+            <CheckBoxPreference android:key="1159" android:title="Яранск" />
+            <CheckBoxPreference android:key="1160" android:title="Яровое" />
+            <CheckBoxPreference android:key="1161" android:title="Ярославль" />
+            <CheckBoxPreference android:key="1162" android:title="Ярцево" />
+            <CheckBoxPreference android:key="1163" android:title="Ясногорск" />
+            <CheckBoxPreference android:key="1164" android:title="Ясный" />
+            <CheckBoxPreference android:key="1165" android:title="Яхрома" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="azerbaydjan_pref_screen"
+            android:title="Азербайджан">
+
+            <CheckBoxPreference android:key="1244" android:title="Агдам" />
+            <CheckBoxPreference android:key="1246" android:title="Агдаш" />
+            <CheckBoxPreference android:key="1245" android:title="Агдере" />
+            <CheckBoxPreference android:key="1247" android:title="Агджабеди" />
+            <CheckBoxPreference android:key="1249" android:title="Агстафа (Акстафа)" />
+            <CheckBoxPreference android:key="1248" android:title="Аджигабул" />
+            <CheckBoxPreference android:key="1250" android:title="Астара" />
+            <CheckBoxPreference android:key="1251" android:title="Ахсу" />
+            <CheckBoxPreference android:key="1252" android:title="Баку" />
+            <CheckBoxPreference android:key="1255" android:title="Балакен (Белоканы)" />
+            <CheckBoxPreference android:key="1253" android:title="Барда" />
+            <CheckBoxPreference android:key="1254" android:title="Бейлаган" />
+            <CheckBoxPreference android:key="1256" android:title="Билясувар" />
+            <CheckBoxPreference android:key="1257" android:title="Габала" />
+            <CheckBoxPreference android:key="1277" android:title="Газах (Казах)" />
+            <CheckBoxPreference android:key="1278" android:title="Гах (Кахи)" />
+            <CheckBoxPreference android:key="1260" android:title="Гёйгёль" />
+            <CheckBoxPreference android:key="1261" android:title="Гёйтепе" />
+            <CheckBoxPreference android:key="1258" android:title="Гёйчай (Геокчай)" />
+            <CheckBoxPreference android:key="1259" android:title="Геранбой" />
+            <CheckBoxPreference android:key="1262" android:title="Гобустан" />
+            <CheckBoxPreference android:key="1263" android:title="Говлар" />
+            <CheckBoxPreference android:key="1264" android:title="Горадиз" />
+            <CheckBoxPreference android:key="1281" android:title="Губа (Куба)" />
+            <CheckBoxPreference android:key="1282" android:title="Губадлы (Кубатлы)" />
+            <CheckBoxPreference android:key="1283" android:title="Гусар (Кусары)" />
+            <CheckBoxPreference android:key="1265" android:title="Гянджа" />
+            <CheckBoxPreference android:key="1266" android:title="Далимамедли" />
+            <CheckBoxPreference android:key="1267" android:title="Дашкесан" />
+            <CheckBoxPreference android:key="1268" android:title="Джалилабад" />
+            <CheckBoxPreference android:key="1269" android:title="Джебраил" />
+            <CheckBoxPreference android:key="1270" android:title="Джульфа" />
+            <CheckBoxPreference android:key="1271" android:title="Евлах" />
+            <CheckBoxPreference android:key="1272" android:title="Загатала (Закаталы)" />
+            <CheckBoxPreference android:key="1273" android:title="Зангелан" />
+            <CheckBoxPreference android:key="1274" android:title="Зардоб" />
+            <CheckBoxPreference android:key="1275" android:title="Имишли" />
+            <CheckBoxPreference android:key="1276" android:title="Исмаиллы" />
+            <CheckBoxPreference android:key="1279" android:title="Кедабек" />
+            <CheckBoxPreference android:key="1280" android:title="Кельбаджар" />
+            <CheckBoxPreference android:key="1284" android:title="Кюрдамир" />
+            <CheckBoxPreference android:key="1285" android:title="Лачин" />
+            <CheckBoxPreference android:key="1286" android:title="Ленкорань" />
+            <CheckBoxPreference android:key="1287" android:title="Лерик" />
+            <CheckBoxPreference android:key="1288" android:title="Лиман" />
+            <CheckBoxPreference android:key="1289" android:title="Масаллы" />
+            <CheckBoxPreference android:key="1290" android:title="Мингечевир (Мингечаур)" />
+            <CheckBoxPreference android:key="1291" android:title="Нафталан" />
+            <CheckBoxPreference android:key="1292" android:title="Нахчыван (Нахичевань)" />
+            <CheckBoxPreference android:key="1293" android:title="Нефтечала" />
+            <CheckBoxPreference android:key="1294" android:title="Огуз" />
+            <CheckBoxPreference android:key="1295" android:title="Ордубад" />
+            <CheckBoxPreference android:key="1296" android:title="Саатлы" />
+            <CheckBoxPreference android:key="1297" android:title="Сабирабад" />
+            <CheckBoxPreference android:key="1298" android:title="Салян (Сальяны)" />
+            <CheckBoxPreference android:key="1299" android:title="Самух" />
+            <CheckBoxPreference android:key="1300" android:title="Сиазань" />
+            <CheckBoxPreference android:key="1301" android:title="Сумгайыт (Сумгаит)" />
+            <CheckBoxPreference android:key="1302" android:title="Тауз" />
+            <CheckBoxPreference android:key="1303" android:title="Тертер" />
+            <CheckBoxPreference android:key="1304" android:title="Уджары" />
+            <CheckBoxPreference android:key="1305" android:title="Физули" />
+            <CheckBoxPreference android:key="1306" android:title="Ханкенди" />
+            <CheckBoxPreference android:key="1307" android:title="Хачмаз" />
+            <CheckBoxPreference android:key="1308" android:title="Ходжавенд" />
+            <CheckBoxPreference android:key="1309" android:title="Ходжалы" />
+            <CheckBoxPreference android:key="1310" android:title="Худат" />
+            <CheckBoxPreference android:key="1311" android:title="Хызы" />
+            <CheckBoxPreference android:key="1312" android:title="Хырдалан" />
+            <CheckBoxPreference android:key="1313" android:title="Шабран" />
+            <CheckBoxPreference android:key="1314" android:title="Шамкир" />
+            <CheckBoxPreference android:key="1315" android:title="Шарур" />
+            <CheckBoxPreference android:key="1316" android:title="Шахбуз" />
+            <CheckBoxPreference android:key="1317" android:title="Шеки" />
+            <CheckBoxPreference android:key="1318" android:title="Шемахы (Шемаха)" />
+            <CheckBoxPreference android:key="1319" android:title="Ширван" />
+            <CheckBoxPreference android:key="1320" android:title="Шуша" />
+            <CheckBoxPreference android:key="1321" android:title="Ярдымлы" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="armenia_pref_screen"
+            android:title="Армения">
+
+            <CheckBoxPreference android:key="1322" android:title="Агверан" />
+            <CheckBoxPreference android:key="1323" android:title="Алаверди" />
+            <CheckBoxPreference android:key="1324" android:title="Анкаван" />
+            <CheckBoxPreference android:key="1325" android:title="Арени" />
+            <CheckBoxPreference android:key="1326" android:title="Арзни" />
+            <CheckBoxPreference android:key="1327" android:title="Ариндж" />
+            <CheckBoxPreference android:key="1328" android:title="Арич" />
+            <CheckBoxPreference android:key="1329" android:title="Армавир" />
+            <CheckBoxPreference android:key="1330" android:title="Арташат" />
+            <CheckBoxPreference android:key="1331" android:title="Аруч" />
+            <CheckBoxPreference android:key="1332" android:title="Аштарак" />
+            <CheckBoxPreference android:key="1333" android:title="Бюракан" />
+            <CheckBoxPreference android:key="1334" android:title="Ванадзор" />
+            <CheckBoxPreference android:key="1335" android:title="Ванк" />
+            <CheckBoxPreference android:key="1336" android:title="Варденис" />
+            <CheckBoxPreference android:key="1337" android:title="Гавар" />
+            <CheckBoxPreference android:key="1338" android:title="Горис" />
+            <CheckBoxPreference android:key="1339" android:title="Гюмри" />
+            <CheckBoxPreference android:key="1340" android:title="Джермук" />
+            <CheckBoxPreference android:key="1341" android:title="Дзорагюх" />
+            <CheckBoxPreference android:key="1342" android:title="Дилижан" />
+            <CheckBoxPreference android:key="1343" android:title="Егвард" />
+            <CheckBoxPreference android:key="1344" android:title="Енокаван" />
+            <CheckBoxPreference android:key="1345" android:title="Ереван" />
+            <CheckBoxPreference android:key="1346" android:title="Ехегнадзор" />
+            <CheckBoxPreference android:key="1347" android:title="Иджеван" />
+            <CheckBoxPreference android:key="1348" android:title="Капан" />
+            <CheckBoxPreference android:key="1349" android:title="Лчашен" />
+            <CheckBoxPreference android:key="1350" android:title="Мартуни" />
+            <CheckBoxPreference android:key="1351" android:title="Мастара" />
+            <CheckBoxPreference android:key="1352" android:title="Мегри" />
+            <CheckBoxPreference android:key="1353" android:title="Одзун" />
+            <CheckBoxPreference android:key="1354" android:title="Ошакан" />
+            <CheckBoxPreference android:key="1355" android:title="Раздан" />
+            <CheckBoxPreference android:key="1356" android:title="Севан" />
+            <CheckBoxPreference android:key="1357" android:title="Сисиан" />
+            <CheckBoxPreference android:key="1358" android:title="Степанаван" />
+            <CheckBoxPreference android:key="1359" android:title="Степанакерт" />
+            <CheckBoxPreference android:key="1360" android:title="Талин" />
+            <CheckBoxPreference android:key="1361" android:title="Тегер" />
+            <CheckBoxPreference android:key="1362" android:title="Цахкадзор" />
+            <CheckBoxPreference android:key="1363" android:title="Шуши" />
+            <CheckBoxPreference android:key="1364" android:title="Эчмиадзин" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="belorussia_pref_screen"
+            android:title="Белоруссия">
+
+            <CheckBoxPreference android:key="1366" android:title="Борисов" />
+            <CheckBoxPreference android:key="1376" android:title="Быхов" />
+            <CheckBoxPreference android:key="1377" android:title="Ветка" />
+            <CheckBoxPreference android:key="1367" android:title="Витебск" />
+            <CheckBoxPreference android:key="1368" android:title="Гомель" />
+            <CheckBoxPreference android:key="1378" android:title="Горки" />
+            <CheckBoxPreference android:key="1379" android:title="Городок" />
+            <CheckBoxPreference android:key="1380" android:title="Дзержинск" />
+            <CheckBoxPreference android:key="1381" android:title="Добруш" />
+            <CheckBoxPreference android:key="1382" android:title="Дрисса" />
+            <CheckBoxPreference android:key="1383" android:title="Дубровно" />
+            <CheckBoxPreference android:key="1384" android:title="Жлобин" />
+            <CheckBoxPreference android:key="1385" android:title="Калинковичи" />
+            <CheckBoxPreference android:key="1386" android:title="Климовичи" />
+            <CheckBoxPreference android:key="1387" android:title="Костюковичи" />
+            <CheckBoxPreference android:key="1388" android:title="Кричев" />
+            <CheckBoxPreference android:key="1389" android:title="Лепель" />
+            <CheckBoxPreference android:key="1369" android:title="Минск" />
+            <CheckBoxPreference android:key="1370" android:title="Могилёв" />
+            <CheckBoxPreference android:key="1371" android:title="Мозырь" />
+            <CheckBoxPreference android:key="1390" android:title="Мстиславль" />
+            <CheckBoxPreference android:key="1372" android:title="Орша" />
+            <CheckBoxPreference android:key="1391" android:title="Осиповичи" />
+            <CheckBoxPreference android:key="1392" android:title="Петриков" />
+            <CheckBoxPreference android:key="1373" android:title="Полоцк" />
+            <CheckBoxPreference android:key="1374" android:title="Речица" />
+            <CheckBoxPreference android:key="1393" android:title="Рогачёв" />
+            <CheckBoxPreference android:key="1394" android:title="Сенно" />
+            <CheckBoxPreference android:key="1375" android:title="Слуцк" />
+            <CheckBoxPreference android:key="1395" android:title="Старые Дороги" />
+            <CheckBoxPreference android:key="1396" android:title="Чаусы" />
+            <CheckBoxPreference android:key="1397" android:title="Червень" />
+            <CheckBoxPreference android:key="1398" android:title="Чериков" />
+            <CheckBoxPreference android:key="1399" android:title="Шклов" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="kazahstan_pref_screen"
+            android:title="Казахстан">
+
+            <CheckBoxPreference android:key="1414" android:title="Актау" />
+            <CheckBoxPreference android:key="1404" android:title="Актобе" />
+            <CheckBoxPreference android:key="1400" android:title="Алма-Ата" />
+            <CheckBoxPreference android:key="1402" android:title="Астана" />
+            <CheckBoxPreference android:key="1412" android:title="Атырау" />
+            <CheckBoxPreference android:key="1421" android:title="Жанаозен" />
+            <CheckBoxPreference android:key="1403" android:title="Караганда" />
+            <CheckBoxPreference android:key="1417" android:title="Кокшетау" />
+            <CheckBoxPreference android:key="1410" android:title="Костанай" />
+            <CheckBoxPreference android:key="1411" android:title="Кызылорда" />
+            <CheckBoxPreference android:key="1406" android:title="Павлодар" />
+            <CheckBoxPreference android:key="1413" android:title="Петропавловск" />
+            <CheckBoxPreference android:key="1420" android:title="Рудный" />
+            <CheckBoxPreference android:key="1408" android:title="Семей" />
+            <CheckBoxPreference android:key="1418" android:title="Талдыкорган" />
+            <CheckBoxPreference android:key="1405" android:title="Тараз" />
+            <CheckBoxPreference android:key="1415" android:title="Темиртау" />
+            <CheckBoxPreference android:key="1416" android:title="Туркестан" />
+            <CheckBoxPreference android:key="1409" android:title="Уральск" />
+            <CheckBoxPreference android:key="1407" android:title="Усть-Каменогорск" />
+            <CheckBoxPreference android:key="1401" android:title="Шымкент" />
+            <CheckBoxPreference android:key="1419" android:title="Экибастуз" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="kirgizia_pref_screen"
+            android:title="Киргизия">
+
+            <CheckBoxPreference android:key="1422" android:title="Айдаркен" />
+            <CheckBoxPreference android:key="1423" android:title="Балыкчы" />
+            <CheckBoxPreference android:key="1424" android:title="Баткен" />
+            <CheckBoxPreference android:key="1425" android:title="Бишкек" />
+            <CheckBoxPreference android:key="1426" android:title="Джалал-Абад" />
+            <CheckBoxPreference android:key="1427" android:title="Исфана" />
+            <CheckBoxPreference android:key="1428" android:title="Кадамжай" />
+            <CheckBoxPreference android:key="1429" android:title="Каинды" />
+            <CheckBoxPreference android:key="1430" android:title="Кант" />
+            <CheckBoxPreference android:key="1431" android:title="Кара-Балта" />
+            <CheckBoxPreference android:key="1433" android:title="Кара-Куль" />
+            <CheckBoxPreference android:key="1434" android:title="Кара-Суу" />
+            <CheckBoxPreference android:key="1432" android:title="Каракол" />
+            <CheckBoxPreference android:key="1435" android:title="Кемин" />
+            <CheckBoxPreference android:key="1436" android:title="Кербен" />
+            <CheckBoxPreference android:key="1437" android:title="Кок-Джангак" />
+            <CheckBoxPreference android:key="1438" android:title="Кочкор-Ата" />
+            <CheckBoxPreference android:key="1439" android:title="Кызыл-Кия" />
+            <CheckBoxPreference android:key="1440" android:title="Майлуу-Суу" />
+            <CheckBoxPreference android:key="1441" android:title="Нарын" />
+            <CheckBoxPreference android:key="1442" android:title="Ноокат" />
+            <CheckBoxPreference android:key="1443" android:title="Орловка" />
+            <CheckBoxPreference android:key="1444" android:title="Ош" />
+            <CheckBoxPreference android:key="1445" android:title="Сулюкта" />
+            <CheckBoxPreference android:key="1446" android:title="Талас" />
+            <CheckBoxPreference android:key="1447" android:title="Таш-Кумыр" />
+            <CheckBoxPreference android:key="1448" android:title="Токмок" />
+            <CheckBoxPreference android:key="1449" android:title="Токтогул" />
+            <CheckBoxPreference android:key="1450" android:title="Узген" />
+            <CheckBoxPreference android:key="1451" android:title="Чолпон-Ата" />
+            <CheckBoxPreference android:key="1452" android:title="Шопоков" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="moldavia_pref_screen"
+            android:title="Молдавия">
+
+            <CheckBoxPreference android:key="1453" android:title="Бельцы" />
+            <CheckBoxPreference android:key="1454" android:title="Бендеры" />
+            <CheckBoxPreference android:key="1455" android:title="Бессарабка" />
+            <CheckBoxPreference android:key="1456" android:title="Бируинца" />
+            <CheckBoxPreference android:key="1457" android:title="Бричаны" />
+            <CheckBoxPreference android:key="1458" android:title="Быковец" />
+            <CheckBoxPreference android:key="1459" android:title="Вадул-луй-Водэ" />
+            <CheckBoxPreference android:key="1460" android:title="Ватра" />
+            <CheckBoxPreference android:key="1461" android:title="Вулканешты" />
+            <CheckBoxPreference android:key="1462" android:title="Гиндешты" />
+            <CheckBoxPreference android:key="1463" android:title="Глодяны" />
+            <CheckBoxPreference android:key="1464" android:title="Григориополь" />
+            <CheckBoxPreference android:key="1465" android:title="Днестровск" />
+            <CheckBoxPreference android:key="1466" android:title="Дондюшаны" />
+            <CheckBoxPreference android:key="1467" android:title="Дрокия" />
+            <CheckBoxPreference android:key="1468" android:title="Дубоссары" />
+            <CheckBoxPreference android:key="1469" android:title="Дурлешты" />
+            <CheckBoxPreference android:key="1470" android:title="Единец" />
+            <CheckBoxPreference android:key="1471" android:title="Кагул" />
+            <CheckBoxPreference android:key="1472" android:title="Каинары" />
+            <CheckBoxPreference android:key="1473" android:title="Калараш" />
+            <CheckBoxPreference android:key="1474" android:title="Каменка" />
+            <CheckBoxPreference android:key="1475" android:title="Кантемир" />
+            <CheckBoxPreference android:key="1476" android:title="Каушаны" />
+            <CheckBoxPreference android:key="1477" android:title="Кишинёв" />
+            <CheckBoxPreference android:key="1478" android:title="Кодру" />
+            <CheckBoxPreference android:key="1479" android:title="Комрат" />
+            <CheckBoxPreference android:key="1480" android:title="Конгаз" />
+            <CheckBoxPreference android:key="1481" android:title="Корнешты" />
+            <CheckBoxPreference android:key="1482" android:title="Костешты" />
+            <CheckBoxPreference android:key="1483" android:title="Красное" />
+            <CheckBoxPreference android:key="1484" android:title="Криково" />
+            <CheckBoxPreference android:key="1485" android:title="Криулень" />
+            <CheckBoxPreference android:key="1486" android:title="Купчинь" />
+            <CheckBoxPreference android:key="1487" android:title="Леова" />
+            <CheckBoxPreference android:key="1488" android:title="Липканы" />
+            <CheckBoxPreference android:key="1489" android:title="Маркулешты" />
+            <CheckBoxPreference android:key="1490" android:title="Маяк" />
+            <CheckBoxPreference android:key="1491" android:title="Ниспорены" />
+            <CheckBoxPreference android:key="1492" android:title="Новотираспольский" />
+            <CheckBoxPreference android:key="1493" android:title="Новые Анены" />
+            <CheckBoxPreference android:key="1494" android:title="Окница" />
+            <CheckBoxPreference android:key="1495" android:title="Орхей" />
+            <CheckBoxPreference android:key="1496" android:title="Отачь" />
+            <CheckBoxPreference android:key="1497" android:title="Резина" />
+            <CheckBoxPreference android:key="1498" android:title="Рыбница" />
+            <CheckBoxPreference android:key="1499" android:title="Рышканы" />
+            <CheckBoxPreference android:key="1500" android:title="Слободзея" />
+            <CheckBoxPreference android:key="1501" android:title="Сороки" />
+            <CheckBoxPreference android:key="1502" android:title="Страшены" />
+            <CheckBoxPreference android:key="1503" android:title="Сынджера" />
+            <CheckBoxPreference android:key="1504" android:title="Сынжерея" />
+            <CheckBoxPreference android:key="1505" android:title="Тараклия" />
+            <CheckBoxPreference android:key="1506" android:title="Твардица" />
+            <CheckBoxPreference android:key="1507" android:title="Теленешты" />
+            <CheckBoxPreference android:key="1508" android:title="Тирасполь" />
+            <CheckBoxPreference android:key="1509" android:title="Унгень" />
+            <CheckBoxPreference android:key="1510" android:title="Фалешты" />
+            <CheckBoxPreference android:key="1511" android:title="Флорешты" />
+            <CheckBoxPreference android:key="1512" android:title="Фрунзе" />
+            <CheckBoxPreference android:key="1513" android:title="Хынчешты" />
+            <CheckBoxPreference android:key="1514" android:title="Чадыр-Лунга" />
+            <CheckBoxPreference android:key="1515" android:title="Чимишлия" />
+            <CheckBoxPreference android:key="1516" android:title="Шолданешты" />
+            <CheckBoxPreference android:key="1517" android:title="Штефан-Водэ" />
+            <CheckBoxPreference android:key="1518" android:title="Яловены" />
+            <CheckBoxPreference android:key="1519" android:title="Яргара" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="tadzikistan_pref_screen"
+            android:title="Таджикистан">
+
+            <CheckBoxPreference android:key="1520" android:title="Бустон" />
+            <CheckBoxPreference android:key="1521" android:title="Вахдат" />
+            <CheckBoxPreference android:key="1522" android:title="Гиссар" />
+            <CheckBoxPreference android:key="1523" android:title="Гулистан" />
+            <CheckBoxPreference android:key="1524" android:title="Душанбе" />
+            <CheckBoxPreference android:key="1525" android:title="Истаравшан" />
+            <CheckBoxPreference android:key="1526" android:title="Истиклол" />
+            <CheckBoxPreference android:key="1527" android:title="Исфара" />
+            <CheckBoxPreference android:key="1528" android:title="Канибадам" />
+            <CheckBoxPreference android:key="1529" android:title="Куляб" />
+            <CheckBoxPreference android:key="1530" android:title="Курган-Тюбе" />
+            <CheckBoxPreference android:key="1531" android:title="Нурек" />
+            <CheckBoxPreference android:key="1532" android:title="Пенджикент" />
+            <CheckBoxPreference android:key="1533" android:title="Рогун" />
+            <CheckBoxPreference android:key="1534" android:title="Сарбанд" />
+            <CheckBoxPreference android:key="1535" android:title="Турсунзаде" />
+            <CheckBoxPreference android:key="1536" android:title="Хорог" />
+            <CheckBoxPreference android:key="1537" android:title="Худжанд" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="russia_pref_screen"
+            android:title="Туркмения">
+
+            <CheckBoxPreference android:key="1539" android:title="Аннау" />
+            <CheckBoxPreference android:key="1540" android:title="Атамурат" />
+            <CheckBoxPreference android:key="1538" android:title="Ашхабад" />
+            <CheckBoxPreference android:key="1541" android:title="Байрамали" />
+            <CheckBoxPreference android:key="1542" android:title="Балканабат" />
+            <CheckBoxPreference android:key="1543" android:title="Берекет" />
+            <CheckBoxPreference android:key="1544" android:title="Бехерден" />
+            <CheckBoxPreference android:key="1545" android:title="Газаджак" />
+            <CheckBoxPreference android:key="1546" android:title="Гёкдепе" />
+            <CheckBoxPreference android:key="1547" android:title="Гумдаг" />
+            <CheckBoxPreference android:key="1548" android:title="Дашогуз" />
+            <CheckBoxPreference android:key="1549" android:title="Ёлётен" />
+            <CheckBoxPreference android:key="1550" android:title="Карабогаз" />
+            <CheckBoxPreference android:key="1551" android:title="Кёнеургенч" />
+            <CheckBoxPreference android:key="1552" android:title="Магданлы" />
+            <CheckBoxPreference android:key="1553" android:title="Мары" />
+            <CheckBoxPreference android:key="1554" android:title="Сейди" />
+            <CheckBoxPreference android:key="1555" android:title="Сердар" />
+            <CheckBoxPreference android:key="1556" android:title="Серхетабад" />
+            <CheckBoxPreference android:key="1557" android:title="Теджен" />
+            <CheckBoxPreference android:key="1558" android:title="Туркменабат" />
+            <CheckBoxPreference android:key="1559" android:title="Туркменбашы" />
+            <CheckBoxPreference android:key="1560" android:title="Хазар" />
+            <CheckBoxPreference android:key="1561" android:title="Шатлык" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="russia_pref_screen"
+            android:title="Узбекистан">
+
+            <CheckBoxPreference android:key="1640" android:title="Аккурган" />
+            <CheckBoxPreference android:key="1590" android:title="Акташ" />
+            <CheckBoxPreference android:key="1573" android:title="Алат" />
+            <CheckBoxPreference android:key="1641" android:title="Алмалык" />
+            <CheckBoxPreference android:key="1642" android:title="Ангрен" />
+            <CheckBoxPreference android:key="1562" android:title="Андижан" />
+            <CheckBoxPreference android:key="1563" android:title="Асака" />
+            <CheckBoxPreference android:key="1643" android:title="Ахангаран" />
+            <CheckBoxPreference android:key="1564" android:title="Ахунбабаев" />
+            <CheckBoxPreference android:key="1591" android:title="Байсун" />
+            <CheckBoxPreference android:key="1592" android:title="Бахт" />
+            <CheckBoxPreference android:key="1644" android:title="Бекабад" />
+            <CheckBoxPreference android:key="1668" android:title="Беруни" />
+            <CheckBoxPreference android:key="1656" android:title="Бешарык" />
+            <CheckBoxPreference android:key="1593" android:title="Бешкент" />
+            <CheckBoxPreference android:key="1645" android:title="Бука" />
+            <CheckBoxPreference android:key="1594" android:title="Булунгур" />
+            <CheckBoxPreference android:key="1669" android:title="Бустан" />
+            <CheckBoxPreference android:key="1574" android:title="Бухара" />
+            <CheckBoxPreference android:key="1575" android:title="Вабкент" />
+            <CheckBoxPreference android:key="1584" android:title="Гагарин" />
+            <CheckBoxPreference android:key="1646" android:title="Газалкент" />
+            <CheckBoxPreference android:key="1576" android:title="Газли" />
+            <CheckBoxPreference android:key="1577" android:title="Галаасия" />
+            <CheckBoxPreference android:key="1585" android:title="Галляарал" />
+            <CheckBoxPreference android:key="1578" android:title="Гиждуван" />
+            <CheckBoxPreference android:key="1595" android:title="Гузар" />
+            <CheckBoxPreference android:key="1596" android:title="Гулистан" />
+            <CheckBoxPreference android:key="1586" android:title="Даштабад" />
+            <CheckBoxPreference android:key="1597" android:title="Денау" />
+            <CheckBoxPreference android:key="1598" android:title="Джамбай" />
+            <CheckBoxPreference android:key="1599" android:title="Джаркурган" />
+            <CheckBoxPreference android:key="1587" android:title="Джизак" />
+            <CheckBoxPreference android:key="1600" android:title="Джума" />
+            <CheckBoxPreference android:key="1647" android:title="Дустабад" />
+            <CheckBoxPreference android:key="1588" android:title="Дустлик" />
+            <CheckBoxPreference android:key="1601" android:title="Зарафшан" />
+            <CheckBoxPreference android:key="1602" android:title="Иштыхан" />
+            <CheckBoxPreference android:key="1579" android:title="Каган" />
+            <CheckBoxPreference android:key="1603" android:title="Камаши" />
+            <CheckBoxPreference android:key="1580" android:title="Каракуль" />
+            <CheckBoxPreference android:key="1565" android:title="Карасу" />
+            <CheckBoxPreference android:key="1581" android:title="Караулбазар" />
+            <CheckBoxPreference android:key="1604" android:title="Карши" />
+            <CheckBoxPreference android:key="1605" android:title="Касан" />
+            <CheckBoxPreference android:key="1606" android:title="Касансай" />
+            <CheckBoxPreference android:key="1607" android:title="Каттакурган" />
+            <CheckBoxPreference android:key="1648" android:title="Келес" />
+            <CheckBoxPreference android:key="1608" android:title="Китаб" />
+            <CheckBoxPreference android:key="1657" android:title="Коканд" />
+            <CheckBoxPreference android:key="1658" android:title="Кува" />
+            <CheckBoxPreference android:key="1659" android:title="Кувасай" />
+            <CheckBoxPreference android:key="1609" android:title="Кумкурган" />
+            <CheckBoxPreference android:key="1670" android:title="Кунград" />
+            <CheckBoxPreference android:key="1566" android:title="Кургантепа" />
+            <CheckBoxPreference android:key="1610" android:title="Кызылтепа" />
+            <CheckBoxPreference android:key="1671" android:title="Мангит" />
+            <CheckBoxPreference android:key="1660" android:title="Маргилан" />
+            <CheckBoxPreference android:key="1567" android:title="Мархамат" />
+            <CheckBoxPreference android:key="1611" android:title="Мубарек" />
+            <CheckBoxPreference android:key="1672" android:title="Муйнак" />
+            <CheckBoxPreference android:key="1612" android:title="Навои" />
+            <CheckBoxPreference android:key="1613" android:title="Наманган" />
+            <CheckBoxPreference android:key="1673" android:title="Нукус" />
+            <CheckBoxPreference android:key="1614" android:title="Нурабад" />
+            <CheckBoxPreference android:key="1615" android:title="Нурата" />
+            <CheckBoxPreference android:key="1616" android:title="Пайарык" />
+            <CheckBoxPreference android:key="1568" android:title="Пайтуг" />
+            <CheckBoxPreference android:key="1617" android:title="Пап" />
+            <CheckBoxPreference android:key="1649" android:title="Паркент" />
+            <CheckBoxPreference android:key="1569" android:title="Пахтаабад" />
+            <CheckBoxPreference android:key="1589" android:title="Пахтакор" />
+            <CheckBoxPreference android:key="1665" android:title="Питнак" />
+            <CheckBoxPreference android:key="1650" android:title="Пскент" />
+            <CheckBoxPreference android:key="1661" android:title="Риштан" />
+            <CheckBoxPreference android:key="1582" android:title="Ромитан" />
+            <CheckBoxPreference android:key="1618" android:title="Самарканд" />
+            <CheckBoxPreference android:key="1637" android:title="Сырдарья" />
+            <CheckBoxPreference android:key="1619" android:title="Талимарджан" />
+            <CheckBoxPreference android:key="1674" android:title="Тахиаташ" />
+            <CheckBoxPreference android:key="1680" android:title="Ташкент" />
+            <CheckBoxPreference android:key="1620" android:title="Термез" />
+            <CheckBoxPreference android:key="1662" android:title="Тинчлик" />
+            <CheckBoxPreference android:key="1651" android:title="Тойтепа" />
+            <CheckBoxPreference android:key="1621" android:title="Туракурган" />
+            <CheckBoxPreference android:key="1675" android:title="Турткуль" />
+            <CheckBoxPreference android:key="1666" android:title="Ургенч" />
+            <CheckBoxPreference android:key="1622" android:title="Ургут" />
+            <CheckBoxPreference android:key="1623" android:title="Учкудук" />
+            <CheckBoxPreference android:key="1624" android:title="Учкурган" />
+            <CheckBoxPreference android:key="1663" android:title="Фергана" />
+            <CheckBoxPreference android:key="1625" android:title="Хаккулабад" />
+            <CheckBoxPreference android:key="1676" android:title="Халкабад" />
+            <CheckBoxPreference android:key="1570" android:title="Ханабад" />
+            <CheckBoxPreference android:key="1667" android:title="Хива" />
+            <CheckBoxPreference android:key="1571" android:title="Ходжаабад" />
+            <CheckBoxPreference android:key="1677" android:title="Ходжейли" />
+            <CheckBoxPreference android:key="1626" android:title="Чартак" />
+            <CheckBoxPreference android:key="1627" android:title="Челек" />
+            <CheckBoxPreference android:key="1678" android:title="Чимбай" />
+            <CheckBoxPreference android:key="1652" android:title="Чиназ" />
+            <CheckBoxPreference android:key="1628" android:title="Чиракчи" />
+            <CheckBoxPreference android:key="1653" android:title="Чирчик" />
+            <CheckBoxPreference android:key="1629" android:title="Чуст" />
+            <CheckBoxPreference android:key="1630" android:title="Шаргунь" />
+            <CheckBoxPreference android:key="1583" android:title="Шафиркан" />
+            <CheckBoxPreference android:key="1631" android:title="Шахрисабз" />
+            <CheckBoxPreference android:key="1572" android:title="Шахрихан" />
+            <CheckBoxPreference android:key="1632" android:title="Шерабад" />
+            <CheckBoxPreference android:key="1638" android:title="Ширин" />
+            <CheckBoxPreference android:key="1679" android:title="Шуманай" />
+            <CheckBoxPreference android:key="1633" android:title="Шурчи" />
+            <CheckBoxPreference android:key="1664" android:title="Яйпан" />
+            <CheckBoxPreference android:key="1634" android:title="Яккабаг" />
+            <CheckBoxPreference android:key="1635" android:title="Янги-Нишан" />
+            <CheckBoxPreference android:key="1654" android:title="Янгиабад" />
+            <CheckBoxPreference android:key="1639" android:title="Янгиер" />
+            <CheckBoxPreference android:key="1636" android:title="Янгирабад" />
+            <CheckBoxPreference android:key="1655" android:title="Янгиюль" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="russia_pref_screen"
+            android:title="Украина">
+
+            <CheckBoxPreference android:key="1681" android:title="Александрия" />
+            <CheckBoxPreference android:key="1682" android:title="Алчевск" />
+            <CheckBoxPreference android:key="1683" android:title="Белая Церковь" />
+            <CheckBoxPreference android:key="1684" android:title="Бердянск" />
+            <CheckBoxPreference android:key="1685" android:title="Бровары" />
+            <CheckBoxPreference android:key="1686" android:title="Винница" />
+            <CheckBoxPreference android:key="1687" android:title="Горловка" />
+            <CheckBoxPreference android:key="1688" android:title="Днепр" />
+            <CheckBoxPreference android:key="1689" android:title="Донецк" />
+            <CheckBoxPreference android:key="1690" android:title="Евпатория" />
+            <CheckBoxPreference android:key="1691" android:title="Енакиево" />
+            <CheckBoxPreference android:key="1692" android:title="Житомир" />
+            <CheckBoxPreference android:key="1693" android:title="Запорожье" />
+            <CheckBoxPreference android:key="1694" android:title="Ивано-Франковск" />
+            <CheckBoxPreference android:key="1695" android:title="Каменец-Подольский" />
+            <CheckBoxPreference android:key="1696" android:title="Каменское " />
+            <CheckBoxPreference android:key="1697" android:title="Керчь" />
+            <CheckBoxPreference android:key="1698" android:title="Киев" />
+            <CheckBoxPreference android:key="1699" android:title="Константиновка" />
+            <CheckBoxPreference android:key="1700" android:title="Краматорск" />
+            <CheckBoxPreference android:key="1701" android:title="Красный Луч" />
+            <CheckBoxPreference android:key="1702" android:title="Кременчуг" />
+            <CheckBoxPreference android:key="1703" android:title="Кривой Рог" />
+            <CheckBoxPreference android:key="1704" android:title="Кропивницкий" />
+            <CheckBoxPreference android:key="1705" android:title="Лисичанск" />
+            <CheckBoxPreference android:key="1706" android:title="Луганск" />
+            <CheckBoxPreference android:key="1707" android:title="Луцк" />
+            <CheckBoxPreference android:key="1708" android:title="Львов" />
+            <CheckBoxPreference android:key="1709" android:title="Макеевка" />
+            <CheckBoxPreference android:key="1710" android:title="Мариуполь" />
+            <CheckBoxPreference android:key="1711" android:title="Мелитополь" />
+            <CheckBoxPreference android:key="1712" android:title="Николаев" />
+            <CheckBoxPreference android:key="1713" android:title="Никополь" />
+            <CheckBoxPreference android:key="1714" android:title="Одесса" />
+            <CheckBoxPreference android:key="1715" android:title="Павлоград" />
+            <CheckBoxPreference android:key="1716" android:title="Полтава" />
+            <CheckBoxPreference android:key="1717" android:title="Ровно" />
+            <CheckBoxPreference android:key="1718" android:title="Севастополь" />
+            <CheckBoxPreference android:key="1719" android:title="Северодонецк" />
+            <CheckBoxPreference android:key="1720" android:title="Симферополь" />
+            <CheckBoxPreference android:key="1721" android:title="Славянск" />
+            <CheckBoxPreference android:key="1722" android:title="Стаханов" />
+            <CheckBoxPreference android:key="1723" android:title="Сумы" />
+            <CheckBoxPreference android:key="1724" android:title="Тернополь" />
+            <CheckBoxPreference android:key="1725" android:title="Ужгород" />
+            <CheckBoxPreference android:key="1726" android:title="Харьков" />
+            <CheckBoxPreference android:key="1727" android:title="Херсон" />
+            <CheckBoxPreference android:key="1728" android:title="Хмельницкий" />
+            <CheckBoxPreference android:key="1729" android:title="Черкассы" />
+            <CheckBoxPreference android:key="1730" android:title="Чернигов" />
+            <CheckBoxPreference android:key="1731" android:title="Черновцы" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="russia_pref_screen"
+            android:title="Грузия">
+
+            <CheckBoxPreference android:key="1733" android:title="Абаша" />
+            <CheckBoxPreference android:key="1734" android:title="Амбролаури" />
+            <CheckBoxPreference android:key="1735" android:title="Ахалкалаки" />
+            <CheckBoxPreference android:key="1736" android:title="Ахалцихе" />
+            <CheckBoxPreference android:key="1737" android:title="Ахмета" />
+            <CheckBoxPreference android:key="1738" android:title="Багдати" />
+            <CheckBoxPreference android:key="1739" android:title="Батуми" />
+            <CheckBoxPreference android:key="1740" android:title="Болниси[7]" />
+            <CheckBoxPreference android:key="1741" android:title="Боржоми" />
+            <CheckBoxPreference android:key="1742" android:title="Вале" />
+            <CheckBoxPreference android:key="1743" android:title="Вани" />
+            <CheckBoxPreference android:key="1744" android:title="Гардабани" />
+            <CheckBoxPreference android:key="1745" android:title="Гори" />
+            <CheckBoxPreference android:key="1746" android:title="Гурджаани" />
+            <CheckBoxPreference android:key="1747" android:title="Дедоплис-Цкаро" />
+            <CheckBoxPreference android:key="1748" android:title="Джвари" />
+            <CheckBoxPreference android:key="1749" android:title="Дманиси" />
+            <CheckBoxPreference android:key="1750" android:title="Душети" />
+            <CheckBoxPreference android:key="1751" android:title="Зестафони" />
+            <CheckBoxPreference android:key="1752" android:title="Зугдиди" />
+            <CheckBoxPreference android:key="1753" android:title="Карели" />
+            <CheckBoxPreference android:key="1754" android:title="Каспи" />
+            <CheckBoxPreference android:key="1755" android:title="Кварели" />
+            <CheckBoxPreference android:key="1756" android:title="Кобулети" />
+            <CheckBoxPreference android:key="1757" android:title="Кутаиси" />
+            <CheckBoxPreference android:key="1758" android:title="Лагодехи" />
+            <CheckBoxPreference android:key="1759" android:title="Ланчхути" />
+            <CheckBoxPreference android:key="1760" android:title="Марнеули" />
+            <CheckBoxPreference android:key="1761" android:title="Мартвили" />
+            <CheckBoxPreference android:key="1762" android:title="Мцхета" />
+            <CheckBoxPreference android:key="1763" android:title="Ниноцминда" />
+            <CheckBoxPreference android:key="1764" android:title="Озургети" />
+            <CheckBoxPreference android:key="1765" android:title="Они" />
+            <CheckBoxPreference android:key="1766" android:title="Поти" />
+            <CheckBoxPreference android:key="1767" android:title="Рустави" />
+            <CheckBoxPreference android:key="1768" android:title="Сагареджо" />
+            <CheckBoxPreference android:key="1769" android:title="Самтредиа" />
+            <CheckBoxPreference android:key="1770" android:title="Сачхере" />
+            <CheckBoxPreference android:key="1771" android:title="Сенаки" />
+            <CheckBoxPreference android:key="1732" android:title="Тбилиси"/>
+
+        </PreferenceScreen>
+    </PreferenceScreen>
+
+
+
+
+
+    <CheckBoxPreference
+        android:key="SHOW_LET_POSTS"
+        android:title="Сдам"
+        android:summary="Посты с сдачи в аренду"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="SHOW_RENT_POSTS"
+        android:title="Сниму"
+        android:summary="Посты о желании взять в аренду"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:key="SHOW_SELL_POSTS"
+        android:title="Продам"
+        android:summary="Посты о продаже"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:key="SHOW_BUY_POSTS"
+        android:title="Куплю"
+        android:summary="Посты о покупке"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:key="SHOW_LIVINGS"
+        android:title="Жилая недвижимость"
+        android:summary="Посты по жилой недвижимости"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="SHOW_NON_LIVINGS"
+        android:title="Нежилая недвижимость"
+        android:summary="Посты о нежилой недвижимости"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:key="SHOW_FROM_REALTORS"
+        android:title="Посты посредников"
+        android:summary="Показывать посты, опубликованные посредниками"
+        android:defaultValue="true"/>
+
+    <ListPreference
+        android:entries="@array/nums_posts_to_show_arr"
+        android:entryValues="@array/nums_posts_to_show_arr_vals"
+        android:key="num_posts_to_show"
+        android:title="Длина списка постов"
+        android:defaultValue="30"
+        android:summary="Сколько постов показывать в главном списке" />
+
+    <ListPreference
+        android:entries="@array/notification_freq"
+        android:entryValues="@array/notification_freq_vals"
+        android:key="notify_freq"
+        android:defaultValue="30"
+        android:title="Частота обращений к серверу"
+        android:summary="Как часто получать обновления с сервера" />
+
+    <PreferenceScreen
+        android:key="clear_db_pref"
+        android:title="Очистка БД"
+        android:summary="Удаление из базы данных всех собранных постов" />
+
+    <PreferenceScreen
+        android:key="set_default_vals_pref"
+        android:title="Возврат к базовой конфигурации"
+        android:summary="Вернуть все настройки к начальным" />
+
+    <CheckBoxPreference
+        android:key="API_CALLS_BACKGROUND_SERVICE_ACTIVE"
+        android:title="Фоновая служба запросов к серверу"
+        android:summary="Активировать фоновые запросы к серверу для уведомлений о новых объявлениях"
+        android:defaultValue="true"/>
+
+</PreferenceScreen>

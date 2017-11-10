@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradientushka"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ru.aryumin.nedvizmonitorchiklite.PostInfo">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewPostInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_add">
+        </com.google.android.gms.ads.AdView>
+
+
+        <TextView
+            android:id="@+id/post_info_meta_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/post_open_in_browser_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Посмотреть в источнике"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/post_info_text_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/post_add_to_favourite_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить в избранное"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
